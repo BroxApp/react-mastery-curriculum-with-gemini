@@ -1,5 +1,4 @@
 # 🚀 React Engineering Roadmap
-
 ## From Absolute Beginner to Freelance-Ready Frontend Engineer
 
 > A complete project-based React roadmap focused on real-world engineering, GitHub consistency, portfolio building, and freelance readiness.
@@ -80,14 +79,14 @@ The focus is:
 
 ### Topics
 
-- [ ] Install Node.js
-- [ ] Install VS Code
+- [X] Install Node.js
+- [X] Install VS Code
 - [ ] Terminal Basics
 - [ ] File System Basics
-- [ ] Folder Structure
-- [ ] npm Basics
-- [ ] Vite Setup
-- [ ] Running Development Servers
+- [X] Folder Structure
+- [X] npm Basics
+- [X] Vite Setup
+- [X] Running Development Servers
 
 ### 📌 Mini Project
 

@@ -11,14 +11,23 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📊 Current Status
 
 - **Current Phase:** Phase 0 (Development Fundamentals)
-- **Daily Streak:** 🔥 1 Day
-- **Overall Progress:** 2%
+- **Daily Streak:** 🔥 2 Day
+- **Overall Progress:** 20%
+- **Next Step:** Phase 0.1 - Step 6 (Environment Cleanup)
 
 ---
 
 ## 📅 Daily Progress Log
 
 | Date| Task / Project|GitHub Commit|
+| 23/5/2026| End of session: Environment ready for Cleanup| Workspace Checkpoint|
+| 23/5/2026| Identifying HTML Entry Point (index.html)| Architecture Analysis|
+| 23/5/2026| Completed SPA Architecture Deep-Dive| Knowledge Sync|
+| 23/5/2026| Understanding the SPA Entry Point (DOM Mounting)| Architecture Analysis|
+| 23/5/2026| Understanding React Entry Point & DOM Injection| Architecture Analysis|
+| 23/5/2026| Successfully running Dev Server| Project Setup|
+| 23/5/2026| First Component Edit & HMR Test| UI Customization|
+| 23/5/2026| Starting Phase 0.1: Vite Environment Setup| Initializing Project|
 | 22/5/2026| Planning and preparing the AI model for training| Curriculum Planning|
 
 > **Note:** This table is updated daily to reflect my consistency and growth.
