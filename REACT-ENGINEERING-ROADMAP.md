@@ -1,4 +1,5 @@
 # 🚀 React Engineering Roadmap
+
 ## From Absolute Beginner to Freelance-Ready Frontend Engineer
 
 > A complete project-based React roadmap focused on real-world engineering, GitHub consistency, portfolio building, and freelance readiness.
@@ -79,14 +80,14 @@ The focus is:
 
 ### Topics
 
-- [X] Install Node.js
-- [X] Install VS Code
-- [ ] Terminal Basics
-- [ ] File System Basics
-- [X] Folder Structure
-- [X] npm Basics
-- [X] Vite Setup
-- [X] Running Development Servers
+- [x] Install Node.js
+- [x] Install VS Code
+- [x] Terminal Basics
+- [x] File System Basics
+- [x] Folder Structure
+- [x] npm Basics
+- [x] Vite Setup
+- [x] Running Development Servers
 
 ### 📌 Mini Project
 
@@ -652,6 +653,19 @@ Progression is allowed only after:
 - understanding the concept,
 - completing the project,
 - and writing clean code.
+
+## Rule 5 — Absolute Curriculum Stability
+
+The syllabus and rules defined in the roadmap files are fixed. Any deviation or modification requires:
+
+1. Advance notification.
+2. Detailed justification.
+3. Explicit approval from the student.
+   The mentor is required to verify the actual file system before providing instructions.
+
+**Note:** As per the final agreement, only progress updates and log details can be modified in this file. The roadmap itself is now permanent. **Crucial:** Always target the curriculum/tracking files at the root (`d:\BroxApp\Projects\react-mastery-curriculum-with-gemini\`) to avoid duplicates in subfolders.
+
+**Note:** As per the final agreement, only progress updates and log details can be modified in this file. The roadmap itself is now permanent.
 
 ---
 

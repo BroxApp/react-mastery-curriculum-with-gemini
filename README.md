@@ -12,14 +12,22 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 - **Current Phase:** Phase 0 (Development Fundamentals)
 - **Daily Streak:** 🔥 2 Day
-- **Overall Progress:** 20%
-- **Next Step:** Phase 0.1 - Step 6 (Environment Cleanup)
+- **Overall Progress:** 40%
+- **Next Step:** Phase 0.2 - Git & GitHub Workflow
 
 ---
 
 ## 📅 Daily Progress Log
 
 | Date| Task / Project|GitHub Commit|
+| 24/5/2026| Session Checkpoint: Phase 0.1 Complete & Rules Secured| docs: ready for Git workflow|
+| 24/5/2026| Terminal Command Review: Documented core PowerShell commands| docs: terminal command cheat-sheet|
+| 24/5/2026| Debugging PowerShell Relative Paths & File Creation| fix: resolve directory nesting error in terminal|
+| 24/5/2026| Terminal Mastery: Folder structure & file creation via PS| feat: initialize component architecture via terminal|
+| 24/5/2026| Manual Sync & Final Audit of Curriculum Integrity| Docs: Immutable protocol established|
+| 24/5/2026| Environment Audit: Fully cleaned public/assets & verified build| Style: Minimalist entry point|
+| 24/5/2026| Finalized Environment Cleanup & File Audit| Refactor: Clean slate architecture|
+| 23/5/2026| Strategic Timeline Review (4-6 Months Roadmap)| Strategy Alignment|
 | 23/5/2026| End of session: Environment ready for Cleanup| Workspace Checkpoint|
 | 23/5/2026| Identifying HTML Entry Point (index.html)| Architecture Analysis|
 | 23/5/2026| Completed SPA Architecture Deep-Dive| Knowledge Sync|
@@ -38,7 +46,9 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 ### ⚪ Phase 0: Development Fundamentals
 
-- [ ] Development Environment (Node, Vite, VS Code)
+- [x] Development Environment Setup (Node, Vite)
+- [x] Terminal & File System Basics
+- [x] Professional Folder Structure
 - [ ] Git & GitHub Workflow
 - [ ] Professional README Standards
 
@@ -86,6 +96,9 @@ To become a professional Frontend Engineer capable of building scalable applicat
 1. **No Passive Learning:** Every concept is followed by a mini-project.
 2. **GitHub Consistency:** Daily commits are mandatory.
 3. **Clean Code:** Following industry standards and architectural patterns.
+4. **Curriculum Integrity:** No changes to `README.md`, `REACT-ENGINEERING-ROADMAP.md`, or `FREELANCE-SIMULATION-MODULES.md` are allowed without prior justification and student approval. The mentor must audit the project structure and roadmap at the start of every session to ensure 100% accuracy.
+5. **Progress Tracking Isolation:** When updating progress or modifying curriculum files (`README.md`, `ROADMAP.md`, `SIMULATION-MODULES.md`), the AI must exclusively target the absolute path in the project root (`b:\BroxApp\Projects\react-mastery-curriculum-with-gemini\`). Creating duplicate `README.md` files in subdirectories is strictly forbidden. This does not apply to source code files (e.g., `.jsx`, `.css`) which should be edited in their respective directories.
+6. **Final Amendment (Immutable Protocol):** This is the final structural change to the curriculum files. From this point forward, the ONLY authorized modifications to these files are updates to "Current Status", "Overall Progress", and the "Daily Progress Log". The core syllabus, rules, and logic are now frozen.
 
 ---
 
