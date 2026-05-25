@@ -10,9 +10,9 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 ## 📊 Current Status
 
-- **Current Phase:** Phase 0 (Development Fundamentals)
-- **Daily Streak:** 🔥 2 Day
-- **Overall Progress:** 40%
+- **Current Phase:** Phase 0.2 (Git & GitHub Workflow)
+- **Daily Streak:** 🔥 4 Day
+- **Overall Progress:** 15%
 - **Next Step:** Phase 0.2 - Git & GitHub Workflow
 
 ---
@@ -20,6 +20,11 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📅 Daily Progress Log
 
 | Date| Task / Project|GitHub Commit|
+| 25/5/2026| Technical Concept: Understanding Git Commit & Flag Logic| docs: explain git commit meaning and -m flag logic|
+| 25/5/2026| Deep Dive: Git Commit Anatomy & Flags (-m)| docs: document git internal logic|
+| 25/5/2026| Started Phase 0.2: Git Initialization & First Commit| feat: initialize git repository|
+| 25/5/2026| Protocol Setup: Formalized Session Startup Rule| docs: add startup verification protocol|
+| 25/5/2026| Realignment: Moving to Phase 0.2 Git & GitHub| docs: sync with React Engineering Roadmap|
 | 24/5/2026| Session Checkpoint: Phase 0.1 Complete & Rules Secured| docs: ready for Git workflow|
 | 24/5/2026| Terminal Command Review: Documented core PowerShell commands| docs: terminal command cheat-sheet|
 | 24/5/2026| Debugging PowerShell Relative Paths & File Creation| fix: resolve directory nesting error in terminal|
@@ -99,6 +104,7 @@ To become a professional Frontend Engineer capable of building scalable applicat
 4. **Curriculum Integrity:** No changes to `README.md`, `REACT-ENGINEERING-ROADMAP.md`, or `FREELANCE-SIMULATION-MODULES.md` are allowed without prior justification and student approval. The mentor must audit the project structure and roadmap at the start of every session to ensure 100% accuracy.
 5. **Progress Tracking Isolation:** When updating progress or modifying curriculum files (`README.md`, `ROADMAP.md`, `SIMULATION-MODULES.md`), the AI must exclusively target the absolute path in the project root (`b:\BroxApp\Projects\react-mastery-curriculum-with-gemini\`). Creating duplicate `README.md` files in subdirectories is strictly forbidden. This does not apply to source code files (e.g., `.jsx`, `.css`) which should be edited in their respective directories.
 6. **Final Amendment (Immutable Protocol):** This is the final structural change to the curriculum files. From this point forward, the ONLY authorized modifications to these files are updates to "Current Status", "Overall Progress", and the "Daily Progress Log". The core syllabus, rules, and logic are now frozen.
+7. **Session Startup Protocol:** At the start of every session, the Mentor is OBLIGATED to read the `Current Status` from the root `README.md`, announce the current Phase and Next Step to the Student, and wait for explicit confirmation before proceeding.
 
 ---
 
