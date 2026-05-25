@@ -103,11 +103,11 @@ The focus is:
 
 ### Topics
 
-- [ ] Git Basics
-- [ ] git init
-- [ ] git add
-- [ ] git commit
-- [ ] git push
+- [x] Git Basics
+- [x] git init
+- [x] git add
+- [x] git commit
+- [x] git push
 - [ ] Branches
 - [ ] Pull Requests
 - [ ] README Writing
