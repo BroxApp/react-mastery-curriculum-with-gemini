@@ -108,7 +108,7 @@ The focus is:
 - [x] git add
 - [x] git commit
 - [x] git push
-- [ ] Branches
+- [X] Branches
 - [ ] Pull Requests
 - [ ] README Writing
 - [ ] Clean Commit Messages
