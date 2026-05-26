@@ -20,6 +20,8 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📅 Daily Progress Log
 
 | Date| Task / Project|GitHub Commit|
+| 26/5/2026| Git Shortcuts: Learned git checkout -b flag | docs: document branch creation shortcut|
+| 26/5/2026| Git Workflow: Successfully merged feature-git-learning into main | feat: merge branching practice|
 | 26/5/2026| Branching Practice: Created and switched to feature branch | feat: create git-learning branch|
 | 26/5/2026| Session Start: Transitioning to Git Branching | docs: initialize branching session|
 | 25/5/2026| Session Conclusion: Basic Git Workflow Mastery | docs: finalize basic git workflow and progress sync|
