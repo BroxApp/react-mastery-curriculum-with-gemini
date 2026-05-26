@@ -20,6 +20,7 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📅 Daily Progress Log
 
 | Date| Task / Project|GitHub Commit|
+| 26/5/2026| PR Workflow: Created CONTRIBUTING.md & practiced bulk staging | docs: add contribution guidelines|
 | 26/5/2026| Git Shortcuts: Learned git checkout -b flag | docs: document branch creation shortcut|
 | 26/5/2026| Git Workflow: Successfully merged feature-git-learning into main | feat: merge branching practice|
 | 26/5/2026| Branching Practice: Created and switched to feature branch | feat: create git-learning branch|
