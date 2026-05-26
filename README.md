@@ -13,7 +13,7 @@ To become a professional Frontend Engineer capable of building scalable applicat
 - **Current Phase:** Phase 0.2 (Git & GitHub Workflow)
 - **Daily Streak:** 🔥 5 Day
 - **Overall Progress:** 25%
-- **Next Step:** Phase 0.2 - Pull Requests & README Standards (Starting Next Session)
+- **Next Step:** Phase 0.2 - Professional Pull Requests & GitHub Flow
 
 ---
 
