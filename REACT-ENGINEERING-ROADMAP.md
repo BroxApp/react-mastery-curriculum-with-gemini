@@ -103,15 +103,15 @@ The focus is:
 
 ### Topics
 
-- [x] Git Basics
-- [x] git init
-- [x] git add
-- [x] git commit
-- [x] git push
-- [x] Branches
-- [x] Pull Requests
-- [ ] README Writing
-- [ ] Clean Commit Messages
+- [X] Git Basics
+- [X] git init
+- [X] git add
+- [X] git commit
+- [X] git push
+- [X] Branches
+- [X] Pull Requests
+- [X] README Writing
+- [X] Clean Commit Messages
 
 ### 📌 Mini Project
 

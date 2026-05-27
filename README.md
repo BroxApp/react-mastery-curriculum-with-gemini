@@ -10,16 +10,17 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 ## 📊 Current Status
 
-- **Current Phase:** Phase 0.2 (Git & GitHub Workflow)
+- **Current Phase:** Phase 1.1 (Modern JS Foundation)
 - **Daily Streak:** 🔥 6 Day
-- **Overall Progress:** 35%
-- **Next Step:** Phase 1.1 - Modern JS Foundation (ES6+ for React)
+- **Overall Progress:** 40%
+- **Next Step:** Phase 1.1 - Mastering Variables & Data Types
 
 ---
 
 ## 📅 Daily Progress Log
 
 | Date| Task / Project|GitHub Commit|
+| 27/5/2026| Phase 0 Milestone: Graduation from Fundamentals | feat: finalize phase 0 and complete git/readme milestones|
 | 27/5/2026| Phase 0.2 Completion: Finalized README & License | docs: add MIT license and finalize workflow|
 | 27/5/2026| Lesson: Conventional Commits & README Best Practices | docs: update readme with professional standards|
 | 27/5/2026| Session Start: Moving to README Standards & Clean Commits | docs: initialize session for README standards|
@@ -66,8 +67,8 @@ To become a professional Frontend Engineer capable of building scalable applicat
 - [x] Development Environment Setup (Node, Vite)
 - [x] Terminal & File System Basics
 - [x] Professional Folder Structure
-- [ ] Git & GitHub Workflow
-- [ ] Professional README Standards
+- [x] Git & GitHub Workflow
+- [x] Professional README Standards
 
 ### 🟢 Phase 1: JavaScript Foundation for React
 
@@ -102,11 +103,11 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 ## 🛠️ Tech Stack (Growing...)
 
-| Category | Technologies |
-| --- | --- |
-| **Core** | HTML5, CSS3, Modern JS (ES6+) |
-| **Library** | React 18+ (Learning Path) |
-| **Tooling** | Vite, npm, Git |
+| Category      | Technologies                     |
+| ------------- | -------------------------------- |
+| **Core**      | HTML5, CSS3, Modern JS (ES6+)    |
+| **Library**   | React 18+ (Learning Path)        |
+| **Tooling**   | Vite, npm, Git                   |
 | **Standards** | Conventional Commits, Clean Code |
 
 ---
