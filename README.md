@@ -11,8 +11,8 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📊 Current Status
 
 - **Current Phase:** Phase 0.2 (Git & GitHub Workflow)
-- **Daily Streak:** 🔥 5 Day
-- **Overall Progress:** 28%
+- **Daily Streak:** 🔥 6 Day
+- **Overall Progress:** 30%
 - **Next Step:** Phase 0.2 - Professional README Standards & Clean Commits
 
 ---
@@ -20,6 +20,8 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📅 Daily Progress Log
 
 | Date| Task / Project|GitHub Commit|
+| 27/5/2026| Lesson: Conventional Commits & README Best Practices | docs: update readme with professional standards|
+| 27/5/2026| Session Start: Moving to README Standards & Clean Commits | docs: initialize session for README standards|
 | 26/5/2026| Final Sync: Local and Remote main branches synchronized | docs: complete git branching and PR workflow practice|
 | 26/5/2026| PR Workflow: Created CONTRIBUTING.md & practiced bulk staging | docs: add contribution guidelines|
 | 26/5/2026| Git Shortcuts: Learned git checkout -b flag | docs: document branch creation shortcut|
@@ -99,9 +101,22 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 ## 🛠️ Tech Stack (Growing...)
 
-- **Core:** HTML5, CSS3, JavaScript (ES6+)
-- **Library:** React (Upcoming)
-- **Tools:** Git, Vite, npm
+| Category | Technologies |
+| --- | --- |
+| **Core** | HTML5, CSS3, Modern JS (ES6+) |
+| **Library** | React 18+ (Learning Path) |
+| **Tooling** | Vite, npm, Git |
+| **Standards** | Conventional Commits, Clean Code |
+
+---
+
+## 🚀 Quick Start
+
+To explore the code or run the mini-projects locally:
+
+1. **Clone the repo:** `git clone https://github.com/YOUR_USERNAME/repo-name.git`
+2. **Navigate to project:** `cd react-mastery-curriculum-with-gemini`
+3. **Install dependencies:** `npm install`
 
 ---
 
