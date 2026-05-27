@@ -1,7 +1,10 @@
+![React Engineering Roadmap Banner](image/ReactDailyPractice.png)
+
 # 🚀 React Engineering Roadmap: From Zero to Freelance
 
 Welcome to my professional journey of mastering React. This repository is a dedicated space for my daily practice, mini-projects, and production-grade applications, following a strict engineering-first curriculum.
 
+---
 ## 🎯 Goal
 
 To become a professional Frontend Engineer capable of building scalable applications and delivering high-quality freelance projects on platforms like Upwork and Fiverr.
