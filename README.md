@@ -17,13 +17,15 @@ To become a professional Frontend Engineer capable of building scalable applicat
 - **Current Phase:** Phase 1.1 (Modern JS Foundation)
 - **Daily Streak:** 🔥 7 Day
 - **Overall Progress:** 40%
-- **Next Step:** Logic & Control Flow: Truthy/Falsy and Logical Operators
+- **Next Step:** Practice Exercise: Logic Review (Price Calculator)
 
 ---
 
 ## 📅 Daily Progress Log
 
 | Date| Task / Project|GitHub Commit|
+| 28/5/2026| Covered: Truthy/Falsy & Logical Operators (Theory) | docs: logic concepts mastered, exercise deferred |
+| 28/5/2026| Completed: Truthy/Falsy & Logical Operators Deep Dive | feat: implement logic and control flow practice |
 | 28/5/2026| Prepared: Logic & Control Flow Study Plan | docs: setup for truthy/falsy logic session |
 | 28/5/2026| Completed: Memory Management (Stack vs Heap) & Immutability | feat: add memory management and reference types lesson |
 | 28/5/2026| Completed: Phase 1.1 Directory Structure & Variables Setup | feat: organize phase 1.1 and setup variables practice |
