@@ -17,14 +17,16 @@ To become a professional Frontend Engineer capable of building scalable applicat
 - **Current Phase:** Phase 1.1 (Modern JS Foundation)
 - **Daily Streak:** 🔥 7 Day
 - **Overall Progress:** 40%
-- **Next Step:** Deep dive into Objects & Arrays (Reference Types)
+- **Next Step:** Logic & Control Flow: Truthy/Falsy and Logical Operators
 
 ---
 
 ## 📅 Daily Progress Log
 
 | Date| Task / Project|GitHub Commit|
-| 28/5/2026| Completed: Folder structure & Variable basics in 1.1 | feat: setup variables practice and directory structure |
+| 28/5/2026| Prepared: Logic & Control Flow Study Plan | docs: setup for truthy/falsy logic session |
+| 28/5/2026| Completed: Memory Management (Stack vs Heap) & Immutability | feat: add memory management and reference types lesson |
+| 28/5/2026| Completed: Phase 1.1 Directory Structure & Variables Setup | feat: organize phase 1.1 and setup variables practice |
 | 28/5/2026| Session Start: Phase 1.1 - Mastering Variables & Data Types | docs: initialize variables and data types session |
 | 27/5/2026| Phase 0 Milestone: Graduation from Fundamentals | feat: finalize phase 0 and complete git/readme milestones|
 | 27/5/2026| Phase 0.2 Completion: Finalized README & License | docs: add MIT license and finalize workflow|

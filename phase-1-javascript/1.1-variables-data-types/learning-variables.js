@@ -1,8 +1,8 @@
 // 1. Const vs Let
-const API_URL = "https://api.example.com"; // ثابت و غیرقابل تغییر (Re-assignment Error)
-let loginAttempts = 0; // قابل تغییر در آینده
+const API_URL = "https://api.example.com"; // Constant and immutable (Re-assignment Error)
+let loginAttempts = 0; // Can be changed in the future
 
-loginAttempts++; // معتبر
+loginAttempts++; // Valid
 
 // 2. Primitive Types (immutable by nature)
 const studentName = "Brox"; // String
