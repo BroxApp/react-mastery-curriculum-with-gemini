@@ -1,51 +1,65 @@
 /**
- * Phase 1.1: Logic & Control Flow
- * Goal: Understanding Truthy/Falsy and Logical Short-circuiting for React.
+ * ✅ گزارش وضعیت یادگیری (ثبت شده برای فردا):
+ * ۱. تحلیل مفاهیم Truthy/Falsy و رفتار آرایه‌های خالی.
+ * ۲. درک منطق Short-circuiting با عملگرهای && و ||.
+ * ۳. یادگیری تفاوت حیاتی Nullish Coalescing (??) با OR (||) برای مدیریت عدد ۰.
+ * ۴. تحلیل تابع calculatePrice (آماده برای بازنویسی مجدد توسط برآکس).
+ * ---------------------------------------------------------
+ * 
+ * فاز ۱.۱: منطق و جریان کنترل
+ * هدف: درک مفهوم Truthy/Falsy و اتصال کوتاه منطقی (Short-circuiting) برای استفاده در ری‌اکت.
  */
 
-// 1. Truthy vs Falsy Practice
+// ۱. تمرین مقادیر Truthy در مقابل Falsy
 const checkValue = (val) => {
     if (val) {
-        console.log(`Value [${val}] is: TRUTHY`);
+        console.log(`مقدار [${val}] هست: TRUTHY`);
     } else {
-        console.log(`Value [${val}] is: FALSY`);
+        console.log(`مقدار [${val}] هست: FALSY`);
     }
 };
 
-checkValue(0);         // Expected: FALSY
-checkValue("Hello");   // Expected: TRUTHY
-checkValue("");        // Expected: FALSY
-checkValue([]);        // Expected: TRUTHY (Empty arrays are objects, thus Truthy!)
+checkValue(0);         // خروجی مورد انتظار: FALSY
+checkValue("Hello");   // خروجی مورد انتظار: TRUTHY
+checkValue("");        // خروجی مورد انتظار: FALSY
+checkValue([]);        // خروجی مورد انتظار: TRUTHY (آرایه‌های خالی شیء هستند، پس Truthy محسوب می‌شوند!)
 
-// 2. Logical Operators in Action (React Patterns)
+// ۲. عملگرهای منطقی در عمل (الگوهای پرکاربرد در ری‌اکت)
 
-// Short-circuiting AND (&&) - Often used for showing/hiding components
+// اتصال کوتاه AND (&&) - معمولاً برای نمایش یا عدم نمایش مشروط کامپوننت‌ها استفاده می‌شود
 const isLoggedIn = true;
 const userRole = "admin";
 const dashboard = isLoggedIn && "Welcome to Dashboard"; 
-console.log("Dashboard Status:", dashboard);
+console.log("وضعیت داشبورد:", dashboard);
 
-// Logical OR (||) - Used for default values
-let userSetTheme = ""; // User didn't pick a theme
+// عملگر منطقی OR (||) - برای تعیین مقادیر پیش‌فرض استفاده می‌شود
+let userSetTheme = ""; // کاربر تمی انتخاب نکرده است
 const activeTheme = userSetTheme || "light-mode";
-console.log("Active Theme:", activeTheme); // Output: "light-mode"
+console.log("تم فعال:", activeTheme); // خروجی: "light-mode"
 
-// Nullish Coalescing (??) - Safety for 0 and ""
+// عملگر Nullish Coalescing (??) - راهکار ایمن برای عدد ۰ و رشته خالی ""
 let productCount = 0;
-const displayCountOR = productCount || "No products"; // WRONG: will show "No products" for 0
-const displayCountNullish = productCount ?? "No products"; // CORRECT: will show 0
+const displayCountOR = productCount || "No products"; // اشتباه: برای مقدار ۰، عبارت "No products" را نشان می‌دهد
+const displayCountNullish = productCount ?? "No products"; // درست: مقدار ۰ را نشان می‌دهد
 
 console.log({ displayCountOR, displayCountNullish });
 
 /**
- * 📝 TOMORROW'S CHALLENGE:
- * Write a function 'calculatePrice(isAvailable, price, discount)'
- * 1. If NOT available, return "Not Available".
- * 2. If available, return (price - discount).
- * 3. IMPORTANT: Use logical operators (&&, ||, ??) to handle cases where 
- *    discount might be 0 or null without breaking the logic.
+ * 📝 چالش فردا:
+ * یک تابع به نام 'calculatePrice(isAvailable, price, discount)' بنویسید.
+ * ۱. اگر موجود نیست (NOT available)، عبارت "Not Available" را برگردانید.
+ * ۲. اگر موجود است، مقدار (price - discount) را برگردانید.
+ * ۳. مهم: از عملگرهای منطقی (&&, ||, ??) استفاده کنید تا مواردی که
+ *    تخفیف (discount) ممکن است ۰ یا null باشد، بدون خراب شدن منطق برنامه مدیریت شوند.
  * 
- * Example: calculatePrice(true, 100, 0) should return 100, not "Not Available".
+ * مثال: calculatePrice(true, 100, 0) باید ۱۰۰ برگرداند، نه عبارت "Not Available".
  */
 
-// TODO: Implement here tomorrow...
+// مرجع حل تمرین (فردا سعی کن بدون نگاه کردن به این، تابع را بنویسی):
+const calculatePrice = (isAvailable, price, discount) => {
+    if (!isAvailable) return "Not Available";
+    const finalDiscount = discount ?? 0;
+    return price - finalDiscount;
+};
+
+console.log("تست محاسبه قیمت (موجود، ۱۰۰ تومن، بدون تخفیف):", calculatePrice(true, 100, 0)); // خروجی: 100

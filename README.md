@@ -15,15 +15,16 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📊 Current Status
 
 - **Current Phase:** Phase 1.1 (Modern JS Foundation)
-- **Daily Streak:** 🔥 7 Day
+- **Daily Streak:** 🔥 8 Day
 - **Overall Progress:** 40%
-- **Next Step:** Practice Exercise: Logic Review (Price Calculator)
+- **Next Step:** Re-implement calculatePrice function
 
 ---
 
 ## 📅 Daily Progress Log
 
 | Date| Task / Project|GitHub Commit|
+| 29/5/2026| Reviewed: Logic & Control Flow, planned re-implementation of calculatePrice | docs: reviewed logic, planned re-implementation |
 | 28/5/2026| Covered: Truthy/Falsy & Logical Operators (Theory) | docs: logic concepts mastered, exercise deferred |
 | 28/5/2026| Completed: Truthy/Falsy & Logical Operators Deep Dive | feat: implement logic and control flow practice |
 | 28/5/2026| Prepared: Logic & Control Flow Study Plan | docs: setup for truthy/falsy logic session |
