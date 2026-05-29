@@ -45,7 +45,7 @@ const displayCountNullish = productCount ?? "No products"; // درست: مقدا
 console.log({ displayCountOR, displayCountNullish });
 
 /**
- * 📝 چالش فردا:
+ * 📝 چالش امروز:
  * یک تابع به نام 'calculatePrice(isAvailable, price, discount)' بنویسید.
  * ۱. اگر موجود نیست (NOT available)، عبارت "Not Available" را برگردانید.
  * ۲. اگر موجود است، مقدار (price - discount) را برگردانید.
@@ -55,7 +55,8 @@ console.log({ displayCountOR, displayCountNullish });
  * مثال: calculatePrice(true, 100, 0) باید ۱۰۰ برگرداند، نه عبارت "Not Available".
  */
 
-// مرجع حل تمرین (فردا سعی کن بدون نگاه کردن به این، تابع را بنویسی):
+// --------------- شروع کد شما ---------------
+
 const calculatePrice = (isAvailable, price, discount) => {
     if (!isAvailable) return "Not Available";
     const finalDiscount = discount ?? 0;
@@ -63,3 +64,18 @@ const calculatePrice = (isAvailable, price, discount) => {
 };
 
 console.log("تست محاسبه قیمت (موجود، ۱۰۰ تومن، بدون تخفیف):", calculatePrice(true, 100, 0)); // خروجی: 100
+
+
+// --------------- پایان کد شما ---------------
+
+
+// تست‌های زیر برای بررسی درستی عملکرد تابع شما هستند.
+// آنها را تغییر ندهید.
+/*
+console.log("--- تست تابع calculatePrice ---");
+console.log("تست ۱ (موجود، قیمت ۱۰۰، تخفیف ۲۰):", calculatePrice(true, 100, 20)); // انتظار: 80
+console.log("تست ۲ (موجود، قیمت ۱۰۰، تخفیف ۰):", calculatePrice(true, 100, 0));    // انتظار: 100
+console.log("تست ۳ (موجود، قیمت ۱۰۰، تخفیف null):", calculatePrice(true, 100, null)); // انتظار: 100
+console.log("تست ۴ (ناموجود):", calculatePrice(false, 100, 20)); // انتظار: "Not Available"
+console.log("تست ۵ (موجود، قیمت ۵۰، بدون تخفیف):", calculatePrice(true, 50)); // انتظار: 50
+*/
