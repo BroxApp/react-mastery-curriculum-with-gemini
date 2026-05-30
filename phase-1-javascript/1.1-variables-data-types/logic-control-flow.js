@@ -45,7 +45,7 @@ const displayCountNullish = productCount ?? "No products"; // درست: مقدا
 console.log({ displayCountOR, displayCountNullish });
 
 /**
- * 📝 چالش فردا:
+ * 📝 چالش امروز:
  * یک تابع به نام 'calculatePrice(isAvailable, price, discount)' بنویسید.
  * ۱. اگر موجود نیست (NOT available)، عبارت "Not Available" را برگردانید.
  * ۲. اگر موجود است، مقدار (price - discount) را برگردانید.
@@ -55,47 +55,43 @@ console.log({ displayCountOR, displayCountNullish });
  * مثال: calculatePrice(true, 100, 0) باید ۱۰۰ برگرداند، نه عبارت "Not Available".
  */
 
-// مرجع حل تمرین (فردا سعی کن بدون نگاه کردن به این، تابع را بنویسی):
+// --------------- شروع کد شما ---------------
+
 const calculatePrice = (isAvailable, price, discount) => {
     if (!isAvailable) return "Not Available";
     const finalDiscount = discount ?? 0;
     return price - finalDiscount;
 };
 
-console.log("تست محاسبه قیمت (موجود، ۱۰۰ دلار بدون تخفیف):", calculatePrice(true, 100, 0)); // خروجی: 100
+console.log("تست محاسبه قیمت پایه:", calculatePrice(true, 100, 0)); 
 
-//پاسخ به سوال توسط Brox 
-//حالت اول بدون عملگرهای منطقی
-function priceCalculator(productCount,price,discount){
+/**
+ * بازنویسی نهایی توسط Brox (نسخه بهینه شده)
+ */
+function calculatePriceFinal(productCount, price, discount) {
+    // استفاده از Logical OR برای بررسی موجودی
+    if (!productCount) return "Not Available";
+
+    // استفاده از Nullish Coalescing برای مقدار پیش‌فرض تخفیف (اگر نال بود ۳ درصد)
+    const safeDiscount = discount ?? 3;
     
-    if (productCount <= 0) {
-        return ("not available")
-    }else{
-        let productCountPrice = productCount * price;
-        let priceDiscount = (price * discount / 100) * productCount;
-        let totalPrice = productCountPrice - priceDiscount
-        return (`product is available:${productCount} units
-totalPrice:${totalPrice}$`)
-    }
+    const totalPrice = productCount * price;
+    const totalDiscountAmount = (price * safeDiscount / 100) * productCount;
+    const finalPrice = totalPrice - totalDiscountAmount;
+
+    return `
+--- رسید خرید ---
+وضعیت موجودی: ${productCount} عدد
+قیمت واحد: ${price}$
+درصد تخفیف اعمال شده: ${safeDiscount}%
+مجموع قیمت قبل از تخفیف: ${totalPrice}$
+سود شما از این خرید: ${totalDiscountAmount}$
+مبلغ قابل پرداخت: ${finalPrice}$
+-----------------`;
 }
 
-console.log(priceCalculator(5, 100, 5));
+console.log(calculatePriceFinal(5, 100, 5));
+console.log(calculatePriceFinal(0, 100, 5)); // تست حالت ناموجود
+console.log(calculatePriceFinal(2, 200, null)); // تست تخفیف نال (باید ۳ درصد اعمال شود)
 
-// حالت دوم با استفاده از عملگرهای منطقی
-
-function calculatePrice2(productCount2, price2, discount2){
-   const isAvailable2 = productCount2 || "not available";
-   const Discount2 = discount2 ?? 3;
-   const totalPrice2 = productCount2 * price2;
-   const totalDiscount2 = (price2 * discount2 / 100) * productCount2;
-   const finalPrice2 = totalPrice2 - totalDiscount2;
-
-
-    return (`productCount2 is available: ${isAvailable2} units
-discount2: ${Discount2}%
-totalPrice2: ${totalPrice2}$
-totalDiscount2: ${totalDiscount2}$
-finalPrice2: ${finalPrice2}$`
-   );
-}
-console.log(calculatePrice2(5,100,5));
+// --------------- پایان تمرین روز نهم ---------------
