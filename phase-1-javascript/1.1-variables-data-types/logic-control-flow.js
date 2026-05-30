@@ -62,4 +62,40 @@ const calculatePrice = (isAvailable, price, discount) => {
     return price - finalDiscount;
 };
 
-console.log("تست محاسبه قیمت (موجود، ۱۰۰ تومن، بدون تخفیف):", calculatePrice(true, 100, 0)); // خروجی: 100
+console.log("تست محاسبه قیمت (موجود، ۱۰۰ دلار بدون تخفیف):", calculatePrice(true, 100, 0)); // خروجی: 100
+
+//پاسخ به سوال توسط Brox 
+//حالت اول بدون عملگرهای منطقی
+function priceCalculator(productCount,price,discount){
+    
+    if (productCount <= 0) {
+        return ("not available")
+    }else{
+        let productCountPrice = productCount * price;
+        let priceDiscount = (price * discount / 100) * productCount;
+        let totalPrice = productCountPrice - priceDiscount
+        return (`product is available:${productCount} units
+totalPrice:${totalPrice}$`)
+    }
+}
+
+console.log(priceCalculator(5, 100, 5));
+
+// حالت دوم با استفاده از عملگرهای منطقی
+
+function calculatePrice2(productCount2, price2, discount2){
+   const isAvailable2 = productCount2 || "not available";
+   const Discount2 = discount2 ?? 3;
+   const totalPrice2 = productCount2 * price2;
+   const totalDiscount2 = (price2 * discount2 / 100) * productCount2;
+   const finalPrice2 = totalPrice2 - totalDiscount2;
+
+
+    return (`productCount2 is available: ${isAvailable2} units
+discount2: ${Discount2}%
+totalPrice2: ${totalPrice2}$
+totalDiscount2: ${totalDiscount2}$
+finalPrice2: ${finalPrice2}$`
+   );
+}
+console.log(calculatePrice2(5,100,5));
