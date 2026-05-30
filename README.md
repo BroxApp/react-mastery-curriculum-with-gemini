@@ -15,9 +15,9 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📊 Current Status
 
 - **Current Phase:** Phase 1.1 (Modern JS Foundation)
-- **Daily Streak:** 🔥 9 Day
+- **Daily Streak:** 🔥 9 Days
 - **Overall Progress:** 42%
-- **Next Step:** Master Modern Functions & Scope Deep Dive
+- **Next Step:** Master Arrays & Objects (Immutability & Reference Types)
 
 ---
 

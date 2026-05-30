@@ -132,9 +132,8 @@ The focus is:
 ## 1.1 Variables & Data Types
 
 ### Topics
-
-- [ ] let / const
-- [ ] primitive types
+- [x] let / const
+- [x] primitive types
 - [ ] arrays
 - [ ] objects
 
