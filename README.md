@@ -26,6 +26,7 @@ To become a professional Frontend Engineer capable of building scalable applicat
 | Date| Task / Project|GitHub Commit|
 | 30/5/2026| Mastered Logic Operators & Resolved Git Conflicts | feat: sync IDX changes and finalize logic exercise |
 | 30/5/2026| Testing: Project IDX integration & Remote Workflow | docs: explore IDX as Gemini Assistant alternative |
+| 30/5/2026| Finalized Day 9: Evaluated Project IDX & Identified 2024 Knowledge Cutoff | docs: log IDX technical limitations |
 | 29/5/2026| Reviewed: Logic & Control Flow, planned re-implementation of calculatePrice | docs: reviewed logic, planned re-implementation |
 | 28/5/2026| Covered: Truthy/Falsy & Logical Operators (Theory) | docs: logic concepts mastered, exercise deferred |
 | 28/5/2026| Completed: Truthy/Falsy & Logical Operators Deep Dive | feat: implement logic and control flow practice |
