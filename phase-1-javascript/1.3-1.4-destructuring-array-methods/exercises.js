@@ -4,7 +4,7 @@
 
 const storeData = {
     storeName: "TechBrox",
-    location: "Tehran",
+    location: "Canada",
     inventory: [
         { id: 101, name: "Laptop", price: 1200, category: "Electronics", stock: 5 },
         { id: 102, name: "Mouse", price: 25, category: "Accessories", stock: 12 },
@@ -27,5 +27,51 @@ const storeData = {
 // ۵. (چالش ری‌اکتی): تابعی بنویسید که قیمت تمام محصولات دسته "Electronics" را با ۲۰ درصد تخفیف برگرداند،
 // اما بقیه محصولات تغییر نکنند. (ترکیب .map و Spread Operator)
 
-console.log("--- Store Analysis ---");
-// تست توابع خود را اینجا لاگ بگیرید
+//جواب سوالات
+//سوال اول: استخراج نام فروشگاه و لیست موجودی
+const {storeName, inventory}=storeData;
+//تست پاسخ سوال اول
+console.log(`Store Name: ${storeName}`,
+    inventory);
+console.log(`Store Name: ${storeName}`);
+console.table(inventory);
+
+//سوال دوم: تابعی که فقط محصولات موجود را بر میگرداند
+const getAvailableProducts = (productsArray) =>{
+    const availableProducts = productsArray.filter(
+        product=>product.stock > 0)
+    return availableProducts;
+}
+//تست پاسخ سوال دوم
+console.log ("Available Products:",
+    getAvailableProducts(storeData.inventory));
+
+//سوال سوم: تابعی که مجموع ارزش کل انبار را محاسبه می‌کند
+const calculateTotalValue = (productsArray)=>{
+    const totalValue = productsArray.reduce((total, currentValue)=>{
+       return total + (currentValue.price*currentValue.stock);
+    }, 0 );
+    return totalValue;
+}
+//تست پاسخ سوال سوم
+console.log("Total Value:", calculateTotalValue(storeData.inventory));
+
+//سوال چهارم: تابعی که یک محصول رو با استفاده از آی دی حذف میکند
+const deleteProductById = (productArray, productId)=>{
+    return productArray.filter(item=>item.id!==productId)
+}
+
+//تست پاسخ سوال چهارم
+console.log("Deleted Product List:", deleteProductById(storeData.inventory, 102));
+
+//سوال پنجم: تابعی که محصولات دسته‌ی الکترونیک را با بیست درصد تخفیف برمی‌گرداند، اما باقی محصولات بدون تغییر می‌مانند
+const electronicProducts = (electronicArry, discount) =>{
+    return electronicArry.map(item=>
+        item.category === "Electronics"
+        ? {...item, price:item.price-(item.price*discount/100)}
+        : item
+    )
+}
+
+//تست پاسخ سوال پنجم
+console.log(electronicProducts(storeData.inventory, 20));

@@ -133,15 +133,11 @@ The focus is:
 
 ### Topics
 
-- [x] let / const
-- [x] primitive types
-- [x] arrays
-- [x] objects
 - [x] let / const & Data Types
 - [x] Immutability Basics
-- [ ] Destructuring & Spread (In Progress)
-- [ ] Array Methods: map, filter, reduce (In Progress)
-- [ ] functions & arrow functions
+- [x] functions & arrow functions
+- [x] Destructuring & Spread
+- [x] Array Methods: map, filter, reduce
 
 ### 📌 Mini Project
 
@@ -151,10 +147,10 @@ The focus is:
 
 ### Topics
 
-- [ ] functions
-- [ ] arrow functions
-- [ ] template literals
-- [ ] default parameters
+- [x] functions
+- [x] arrow functions
+- [x] template literals
+- [x] default parameters
 
 ### 📌 Mini Project
 
@@ -164,10 +160,10 @@ The focus is:
 
 ### Topics
 
-- [ ] array destructuring
-- [ ] object destructuring
-- [ ] spread operator
-- [ ] rest operator
+- [x] array destructuring
+- [x] object destructuring
+- [x] spread operator
+- [x] rest operator
 
 ### 📌 Mini Project
 
@@ -177,11 +173,11 @@ The focus is:
 
 ### Topics
 
-- [ ] map()
-- [ ] filter()
-- [ ] reduce()
-- [ ] find()
-- [ ] sort()
+- [x] map()
+- [x] filter()
+- [x] reduce()
+- [x] find()
+- [x] sort()
 
 ### 📌 Mini Project
 
