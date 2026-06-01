@@ -83,3 +83,63 @@ console.log("Current Store:", myStore);      // باید شامل ۲ مورد ب
  * که این بخش از دیتا تغییر نکرده (Reference ثابت می‌ماند) و از رندر مجدد بیهوده 
  * جلوگیری می‌کند. این کلید اصلی Performance در پروژه‌های بزرگ است.
  */
+
+// من دوباره تمرین را انجام دادم
+const studentsList = [
+    {id: 1, name: "Alice", grade: 90},
+    {id: 2, name: "Reza", grade: 95},
+    {id: 3, name: "Ahmad", grade: 80}
+]
+
+const addStudedntToList = (currentList, name, grade ) => {
+    const newStudent = {
+        id: currentList.length+1,
+        name,
+        grade
+    }
+    return [...currentList, newStudent];
+}
+
+const addNewGrade = (currentList, studentId, newGrade)=>{
+    return currentList.map(item => 
+        item.id === studentId
+        ? {...item, grade: newGrade}
+        : item
+    )
+}
+
+let myClass = addStudedntToList (studentsList, "Sara", 98);
+myClass = addNewGrade (myClass, 1, 97);
+
+console.log("original studentsList:", studentsList);
+console.log("myclassList:", myClass);
+
+// من سه باره تمرین رو انجام دادم
+const fruit = [{
+    id:1,
+    name: "apple",
+    price: 100
+}]
+
+const addFruit = (currentFruitList, name, price)=>{
+    const newFruit= {
+        id: currentFruitList.length+1,
+        name,
+        price
+    }
+    return [...currentFruitList, newFruit]
+}
+
+const changePrice = (currentFruitList, fruitId, newPrice)=>{
+    return currentFruitList.map(fruit =>
+        fruit.id === fruitId
+        ? {...fruit, price: newPrice}
+        : fruit
+    )
+}
+
+let myFruitShop = addFruit (fruit, "banana", 200);
+myFruitShop = changePrice (myFruitShop, 1, 150);
+
+console.log("original fruit list:", fruit);
+console.log("my Shop fruit list:", myFruitShop);

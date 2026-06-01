@@ -14,16 +14,19 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 ## 📊 Current Status
 
-- **Current Phase:** Phase 1.1 (Modern JS Foundation)
-- **Daily Streak:** 🔥 10 Days
-- **Overall Progress:** 45%
-- **Next Step:** Advanced Array Methods (Filter, Reduce) & Destructuring
+- **Current Phase:** Phase 1.3 & 1.4 (Destructuring & Array Methods)
+- **Daily Streak:** 🔥 11 Days (Study Session)
+- **Overall Progress:** 52%
+- **Next Step:** DOM & Browser APIs (1.5)
 
 ---
 
 ## 📅 Daily Progress Log
 
 | Date| Task / Project|GitHub Commit|
+| 1/6/2026| Started Study: Destructuring & Array Methods Theory | feat: initialize study notes and exercise environment |
+| 1/6/2026| Started: Destructuring (1.3) & Advanced Array Methods (1.4) | feat: initialize exercises for destructuring and filter/reduce |
+| 1/6/2026| Completed: Immutability Deep Reinforcement (Repeated Practice) | feat: finalize immutability practice and update progress log |
 | 31/5/2026| Completed: Arrays & Objects Immutability & AI Workflow Adjusted | feat: finalize Day 10 exercise and disable AI inline suggestions |
 | 30/5/2026| Mastered Logic Operators & Resolved Git Conflicts | feat: sync IDX changes and finalize logic exercise |
 | 30/5/2026| Testing: Project IDX integration & Remote Workflow | docs: explore IDX as Gemini Assistant alternative |

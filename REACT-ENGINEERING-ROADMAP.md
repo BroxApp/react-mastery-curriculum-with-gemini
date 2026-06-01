@@ -137,6 +137,11 @@ The focus is:
 - [x] primitive types
 - [x] arrays
 - [x] objects
+- [x] let / const & Data Types
+- [x] Immutability Basics
+- [ ] Destructuring & Spread (In Progress)
+- [ ] Array Methods: map, filter, reduce (In Progress)
+- [ ] functions & arrow functions
 
 ### 📌 Mini Project
 
