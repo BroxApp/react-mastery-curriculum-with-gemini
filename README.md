@@ -14,10 +14,10 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 ## 📊 Current Status
 
-- **Current Phase:** Phase 1.5 (DOM & Browser APIs)
+- **Current Phase:** Phase 1.4 (Array Methods)
 - **Daily Streak:** 🔥 11 Days
-- **Overall Progress:** 55%
-- **Next Step:** Async JavaScript & Fetch API (1.6)
+- **Overall Progress:** 53%
+- **Next Step:** Array Methods: find & sort
 
 ---
 

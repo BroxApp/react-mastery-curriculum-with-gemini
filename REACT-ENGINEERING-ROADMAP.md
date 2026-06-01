@@ -176,8 +176,8 @@ The focus is:
 - [x] map()
 - [x] filter()
 - [x] reduce()
-- [x] find()
-- [x] sort()
+- [ ] find()
+- [ ] sort()
 
 ### 📌 Mini Project
 
