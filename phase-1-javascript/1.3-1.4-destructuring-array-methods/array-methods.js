@@ -75,3 +75,27 @@ const electronicProducts = (electronicArry, discount) =>{
 
 //تست پاسخ سوال پنجم
 console.log(electronicProducts(storeData.inventory, 20));
+
+//متد .find()
+const products = [
+    {id:1, name:"laptop", price:1000},
+    {id:2, name:"phone", price:500}
+]
+
+const findedProduct = products.find(product => product.id === 2);
+console.log(findedProduct);
+const finedProduct2 = products.find(product => product.id === 1);
+console.log(finedProduct2);
+
+//متد .sort()
+const prices = [10, 5, 80, 2]
+
+//روش غلط برای اعداد
+const sortedPrices2 = prices.sort();
+
+//روش درست برای اعداد (نزولی)
+const sortedPrices = [...prices].sort((a , b)=> b - a);
+
+console.log (sortedPrices2);
+console.log (sortedPrices);
+
