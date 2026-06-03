@@ -187,10 +187,10 @@ The focus is:
 
 ### Topics
 
-- [ ] DOM manipulation
-- [ ] events
+- [X] DOM manipulation
+- [X] events
 - [ ] forms
-- [ ] localStorage
+- [X] localStorage
 
 ### 📌 Mini Project
 
