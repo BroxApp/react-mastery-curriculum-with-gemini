@@ -15,15 +15,16 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📊 Current Status
 
 - **Current Phase:** Phase 1.5 (DOM & Browser APIs)
-- **Daily Streak:** 🔥 13 Days
-- **Overall Progress:** 65%
-- **Next Step:** Form Handling & Mini Project: Notes App
+- **Daily Streak:** 🔥 14 Days
+- **Overall Progress:** 67%
+- **Next Step:** Redo Practice 1 (Ex 7) & Day 13 Practice 2
 
 ---
 
 ## 📅 Daily Progress Log
 
 | Date| Task / Project|GitHub Commit|
+| 4/6/2026| Completed: DOM Practice 1 (Ex 1-6) & HTML Setup | feat: implement DOM manipulation and event handling basics|
 | 3/6/2026| Completed: DOM Manipulation & LocalStorage Persistence | feat: implement dynamic list with persistent storage|
 | 3/6/2026| Completed: DOM Selection & Event Listeners (Phase 1.5) | feat: implement interactive theme toggler and mouse events|
 | 3/6/2026| Completed: Mini Project: Product Filtering Engine (Phase 1.4) | feat: finalize filtering engine and array methods mastery|

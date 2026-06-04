@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale= 0">
+        <title>day-13-practice-1</title>
+        <style>
+            body{background-color: gainsboro; display: flex; align-items: center; justify-content: center; flex-direction: column; }
+            h1{color: darkblue;}
+            button{border: none; border-radius: 5px; background-color: rgb(118, 118, 234); height: 35px; color: white; margin: 3px; min-width: 400px;}
+            button:active{transform: scale(0.98)}
+            .active{background-color: red; padding: 5px; border-radius: 5px; margin: 3px; min-width: 406px;}
+            .newInput{margin:5px;}
+        </style>
+    </head>
+    <body>
+
+        <h1 class="header">h1 element width header class</h1>
+        <button>Click to Cyan background color</button>
+        <button class="no-active-btn">I am not Active !</button>
+       
+        <div class="active">Your Text To Add In List: 
+            <input type="text" placeholder="Add your text hear">
+            <ul>list of your text:</ul>
+            <button id="ulBtn">Add Text!</button>
+        </div>
+
+        <div class="active">
+            <p>Press The Escape Key To Clear Input:</p>
+            <input class="newInput" type="textplaceholder="Input">
+        </div>
+
+        <div class="active">
+            <p>Your LocalStorage Value Is:</p>
+            <div class="localStorage"></div>
+        </div>
+        
+        <div class="active">
+            <p>List Of Current Time:</p>
+            <ul class="currentTimeUl"></ul>
+            <button class="addTimeBtn">Click to add current time to list:</button>
+        </div>
+
+        <script src="day-13-practice-1.js"></script>
+    </body>
+</html>
