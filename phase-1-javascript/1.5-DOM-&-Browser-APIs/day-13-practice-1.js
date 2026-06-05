@@ -140,11 +140,7 @@ const timeFromLocalStorageToUl = () => {
     const timeFromLocalStorage = JSON.parse(localStorage.getItem('time:')) || [];
    
         timeFromLocalStorage.forEach((item) => {
-            const newLi = document.createElement ('li');
-            newLi.textContent = item;
-            currentTimeUl.appendChild (newLi);
-
-            console.log(newLi);
+            addTimeToUl(item);
         })
     }
 

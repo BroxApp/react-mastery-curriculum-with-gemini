@@ -17,13 +17,15 @@ To become a professional Frontend Engineer capable of building scalable applicat
 - **Current Phase:** Phase 1.5 (DOM & Browser APIs)
 - **Daily Streak:** 🔥 15 Days
 - **Overall Progress:** 68%
-- **Next Step:** Complete Day 13 Practice 2 (Intermediate/Advanced)
+- **Next Step:** Advanced Form Techniques: FormData, Input Types (Checkbox/Select), Regex Validation, and Real-time Validation (Phase 1.5)
 
 ---
 
 ## 📅 Daily Progress Log
 
 | Date| Task / Project|GitHub Commit|
+| 5/6/2026| Completed: Basic HTML Form Handling & Validation | feat: implement basic form submission and validation logic |
+| 5/6/2026| Planned: Study HTML Forms before proceeding to Practice 2 | docs: sync roadmap with curriculum phases |
 | 5/6/2026| Re-implemented: DOM Practice 1 (Ex 6 & 7) with optimized patterns | feat: master event delegation and state persistence in vanilla JS|
 | 4/6/2026| Completed: DOM Practice 1 (Ex 1-6) & HTML Setup | feat: implement DOM manipulation and event handling basics|
 | 3/6/2026| Completed: DOM Manipulation & LocalStorage Persistence | feat: implement dynamic list with persistent storage|
