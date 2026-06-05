@@ -81,50 +81,112 @@ document.addEventListener ("keydown", ()=>{
 // ۲. سپس آن را بخوان و در کنسول نمایش بده.
 // راهنمایی: localStorage.setItem و localStorage.getItem
 
-//پاسخ تمرین شماره‌ی: 6
-const localStoraegInput = document.querySelector (".localStorage");
-localStorage.setItem ("username", "Brox");
-console.log(localStorage.getItem ("username"));
-localStoraegInput.textContent = localStorage.getItem ("username");
+//تمرین شماره‌ی ششم را دوباره حل میکنیم: 6
+const localStorageInput = document.querySelector ('.localStorage');
+const dataForLocalStorage = [
+    {name: 'Brox1'},
+    {name: 'Brox2'},
+    {name: 'Brox3'},
+]
+const addDataToLocalStorage = (data) => {
+localStorage.setItem('data:', JSON.stringify(data));
+}
+addDataToLocalStorage(dataForLocalStorage);
 
-// --- تمرین ۷: چالش نهایی (ترکیبی) ---
-// ۱. تابعی بنویس که هر بار دکمه‌ای زده شد، ساعت فعلی سیستم را بگیرد و به لیست (ul) اضافه کند.
-// ۲. همچنین لیست ساعت‌ها را در یک آرایه در LocalStorage ذخیره کند که با رفرش صفحه پاک نشود.
-// راهنمایی: 
-// - برای ساعت: new Date().toLocaleTimeString()
-// - برای ذخیره آرایه: JSON.stringify(myArray)
+const readDataFromLocalStorage = () => {
+const data = JSON.parse (localStorage.getItem('data:'));
+console.log(data);
+}
+readDataFromLocalStorage();
+localStorageInput.textContent =localStorage.getItem('data:');
 
-//پاسخ تمرین شماره‌ی: 7
-// اگر داده‌ای از قبل بود آن را به آرایه تبدیل کن، در غیر این صورت یک آرایه خالی بساز
-let timeList = JSON.parse(localStorage.getItem('savedTimes')) || [];
-const myTime = new Date().toLocaleTimeString();
-const currentTime = document.querySelector ('.currentTime');
-const currentTimeUl = document.querySelector ('.currentTimeUl');
-const addTimeBtn = document.querySelector ('.addTimeBtn');
+// //پاسخ تمرین شماره‌ی: 6
+// const localStoraegInput = document.querySelector (".localStorage");
+// localStorage.setItem ("username", "Brox");
+// console.log(localStorage.getItem ("username"));
+// localStoraegInput.textContent = localStorage.getItem ("username");
 
-function addCurrentTimeToUl(timeText){
-    const newLi = document.createElement ('li');
-    newLi.textContent = timeText;
-    currentTimeUl.appendChild (newLi);
+// // --- تمرین ۷: چالش نهایی (ترکیبی) ---
+// // ۱. تابعی بنویس که هر بار دکمه‌ای زده شد، ساعت فعلی سیستم را بگیرد و به لیست (ul) اضافه کند.
+// // ۲. همچنین لیست ساعت‌ها را در یک آرایه در LocalStorage ذخیره کند که با رفرش صفحه پاک نشود.
+// // راهنمایی: 
+// // - برای ساعت: new Date().toLocaleTimeString()
+// // - برای ذخیره آرایه: JSON.stringify(myArray)
 
+//تمرین هفتم را دوباره حل میکنیم: 7
+const addTimeBtn = document.querySelector('.addTimeBtn');
+const currentTimeUl = document.querySelector('.currentTimeUl');
+
+const time = () => {
+   const currentTime = new Date().toLocaleTimeString(); 
+    return currentTime;
 }
 
-addTimeBtn.addEventListener('click', () => {
-    // ۱. گرفتن زمان دقیق لحظه کلیک
-    const newTime = new Date().toLocaleTimeString();
-    
-    // ۲. اضافه کردن به آرایه
-    timeList.push(newTime);
-    
-    // ۳. ذخیره آرایه به‌روز شده در لوکال استوریج
-    localStorage.setItem('savedTimes', JSON.stringify(timeList));
-    
-    // ۴. نمایش در UI
-    addCurrentTimeToUl(newTime);
-});
 
-// پیمایش روی زمان‌های ذخیره شده قبلی و نمایش آن‌ها در صفحه
-timeList.forEach(time => {
-    addCurrentTimeToUl(time);
-});
-console.log("تمرینات آماده است. موفق باشی برآکس!");
+const addTimeToUl = (now) => {
+    const newLi = document.createElement ('li');
+    newLi.textContent = now;
+    currentTimeUl.appendChild (newLi);
+    console.log(newLi);
+}
+
+const addTimeToLocalStorage = (now) => {
+    const timeArray = JSON.parse(localStorage.getItem('time:')) || [];
+    timeArray.push(now);
+    localStorage.setItem('time:',JSON.stringify(timeArray));
+}
+
+const timeFromLocalStorageToUl = () => {
+    const timeFromLocalStorage = JSON.parse(localStorage.getItem('time:')) || [];
+   
+        timeFromLocalStorage.forEach((item) => {
+            const newLi = document.createElement ('li');
+            newLi.textContent = item;
+            currentTimeUl.appendChild (newLi);
+
+            console.log(newLi);
+        })
+    }
+
+timeFromLocalStorageToUl();
+
+addTimeBtn.addEventListener('click', ()=>{
+    const now = time();
+    addTimeToUl(now);
+    addTimeToLocalStorage(now);
+})
+
+// //پاسخ تمرین شماره‌ی: 7
+// // اگر داده‌ای از قبل بود آن را به آرایه تبدیل کن، در غیر این صورت یک آرایه خالی بساز
+// let timeList = JSON.parse(localStorage.getItem('savedTimes')) || [];
+// const myTime = new Date().toLocaleTimeString();
+// const currentTime = document.querySelector ('.currentTime');
+// const currentTimeUl = document.querySelector ('.currentTimeUl');
+// const addTimeBtn = document.querySelector ('.addTimeBtn');
+
+// function addCurrentTimeToUl(timeText){
+//     const newLi = document.createElement ('li');
+//     newLi.textContent = timeText;
+//     currentTimeUl.appendChild (newLi);
+
+// }
+
+// addTimeBtn.addEventListener('click', () => {
+//     // ۱. گرفتن زمان دقیق لحظه کلیک
+//     const newTime = new Date().toLocaleTimeString();
+    
+//     // ۲. اضافه کردن به آرایه
+//     timeList.push(newTime);
+    
+//     // ۳. ذخیره آرایه به‌روز شده در لوکال استوریج
+//     localStorage.setItem('savedTimes', JSON.stringify(timeList));
+    
+//     // ۴. نمایش در UI
+//     addCurrentTimeToUl(newTime);
+// });
+
+// // پیمایش روی زمان‌های ذخیره شده قبلی و نمایش آن‌ها در صفحه
+// timeList.forEach(time => {
+//     addCurrentTimeToUl(time);
+// });
+// console.log("تمرینات آماده است. موفق باشی برآکس!");
