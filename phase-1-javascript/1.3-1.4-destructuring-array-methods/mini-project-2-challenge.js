@@ -9,7 +9,7 @@ const orders = [
   { id: "ORD-1001", customer: "Niloofar", amount: 240, status: "paid", priority: "high", category: "Electronics" },
   { id: "ORD-1002", customer: "Arman", amount: 85, status: "pending", priority: "low", category: "Books" },
   { id: "ORD-1003", customer: "Sara", amount: 320, status: "paid", priority: "medium", category: "Home" },
-  { id: "ORD-1004", customer: "Niloofar", amount: 60, status: "refunded", priority: "high", category: "Electronics" },
+  { id: "ORD-1004", customer: "Niloofar", amount: 320, status: "refunded", priority: "high", category: "Electronics" },
   { id: "ORD-1005", customer: "Ali", amount: 150, status: "paid", priority: "high", category: "Fashion" },
   { id: "ORD-1006", customer: "Sara", amount: 210, status: "paid", priority: "low", category: "Electronics" },
   { id: "ORD-1007", customer: "Arman", amount: 95, status: "pending", priority: "medium", category: "Books" }
@@ -21,8 +21,9 @@ const orders = [
 // مأموریت: فقط سفارش‌هایی را نگه دار که status === "paid" و amount >= 100 باشند.
 // -------------------------------------------------------------------------
 const premiumPaidOrders = orders.filter(order => {
-  // TODO: کد خود را اینجا بنویس
-});
+  return (order.status === "paid", order.amount >= 100);
+}
+);
 
 console.log("1. سفارش‌های پرداخت‌شده و ارزش بالا:", premiumPaidOrders);
 
@@ -34,7 +35,17 @@ console.log("1. سفارش‌های پرداخت‌شده و ارزش بالا:"
 // نکته: برای سفارش‌های amount >= 200، 10% تخفیف بده؛ وگرنه 5% تخفیف.
 // -------------------------------------------------------------------------
 const invoices = premiumPaidOrders.map(order => {
-  // TODO: کد خود را اینجا بنویس
+let finalPrice;
+//روش اول
+finalPrice = order.amount >= 200 ? order.amount*0.9 : order.amount*0.95;
+//روش دوم
+// if(order.amount >= 200){
+//   finalPrice = order.amount*0.9;
+// }else{
+//   finalPrice = order.amount*0.95;
+// }
+
+  return {invoiceId: order.id, customer: order.customer, totalAfterDiscount:finalPrice}
 });
 
 console.log("2. فاکتورهای خلاصه:", invoices);
@@ -45,7 +56,7 @@ console.log("2. فاکتورهای خلاصه:", invoices);
 // مأموریت: مجموع totalAfterDiscount همه‌ی فاکتورها را حساب کن.
 // -------------------------------------------------------------------------
 const totalRevenue = invoices.reduce((sum, invoice) => {
-  // TODO: کد خود را اینجا بنویس
+  return sum + invoice.totalAfterDiscount;
 }, 0);
 
 console.log("3. مجموع درآمد خالص:", totalRevenue);
@@ -56,7 +67,7 @@ console.log("3. مجموع درآمد خالص:", totalRevenue);
 // مأموریت: اولین سفارشی را که id آن "ORD-1005" باشد پیدا کن.
 // -------------------------------------------------------------------------
 const targetOrder = orders.find(order => {
-  // TODO: کد خود را اینجا بنویس
+ return order.id = "ORD-1005";
 });
 
 console.log("4. سفارش پیدا‌شده (ORD-1005):", targetOrder);
@@ -69,7 +80,18 @@ console.log("4. سفارش پیدا‌شده (ORD-1005):", targetOrder);
 // نکته: حتماً از [...orders] استفاده کن تا آرایه اصلی دست نخورده بماند.
 // -------------------------------------------------------------------------
 const sortedOrders = [...orders].sort((a, b) => {
-  // TODO: کد خود را اینجا بنویس
+  const amountDifference = b.amount - a.amount;
+  if (amountDifference !== 0){
+    return amountDifference;
+  }else{
+    if (a.priority === 'high' && b.priority !== 'high') {
+    return -1;
+    }
+    if(b.priority === 'high' && a.priority !== 'high') {
+      return 1;
+    }
+    return 0;
+  }
 });
 
 console.log("5. سفارش‌های مرتب‌شده:", sortedOrders);

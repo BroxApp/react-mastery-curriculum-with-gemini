@@ -19,7 +19,7 @@ const jobs = [
 // مأموریت: یک آرایه بساز که فقط کارهایی با وضعیت "completed" را داشته باشد.
 // -------------------------------------------------------------------------
 const completedJobs = jobs.filter(job => {
-  // TODO: کد خود را اینجا بنویس
+ return job.status === "completed";
 });
 
 console.log("1. کارهای تکمیل‌شده:", completedJobs);
@@ -33,7 +33,7 @@ console.log("1. کارهای تکمیل‌شده:", completedJobs);
 // نکته: 20% کارمزد پلتفرم از بودجه کسر می‌شود!
 // -------------------------------------------------------------------------
 const invoices = completedJobs.map(job => {
-  // TODO: کد خود را اینجا بنویس
+  return { invoiceTitle: job.title , netEarnings: job.budget * 0.8 } 
 });
 
 console.log("2. فاکتورهای مشتری:", invoices);
@@ -45,7 +45,7 @@ console.log("2. فاکتورهای مشتری:", invoices);
 // مأموریت: جمع همه netEarnings را از آرایه invoices حساب کن.
 // -------------------------------------------------------------------------
 const totalNetEarnings = invoices.reduce((total, invoice) => {
-  // TODO: کد خود را اینجا بنویس
+ return total + invoice.netEarnings;
 }, 0);
 
 console.log("3. مجموع درآمد خالص: $", totalNetEarnings);
@@ -57,7 +57,7 @@ console.log("3. مجموع درآمد خالص: $", totalNetEarnings);
 // مأموریت: دقیقاً همان آبجکت کاری را پیدا کن که id آن "J103" باشد.
 // -------------------------------------------------------------------------
 const targetJob = jobs.find(job => {
-  // TODO: کد خود را اینجا بنویس
+  return job.id === "J103";
 });
 
 console.log("4. کار پیدا‌شده (J103):", targetJob);
@@ -71,7 +71,7 @@ console.log("4. کار پیدا‌شده (J103):", targetJob);
 // ابتدا با عملگر spread یک کپی سطحی بساز: [...array]
 // -------------------------------------------------------------------------
 const sortedJobs = [...jobs].sort((a, b) => {
-  // TODO: کد خود را اینجا بنویس
+  return (b.budget - a.budget);
 });
 
 console.log("5. کارهای مرتب‌شده (از زیاد به کم):", sortedJobs);
