@@ -189,7 +189,7 @@ The focus is:
 
 - [X] DOM manipulation
 - [X] events
-- [ ] forms
+- [X] forms
 - [X] localStorage
 
 ### 📌 Mini Project

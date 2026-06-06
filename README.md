@@ -15,15 +15,16 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📊 Current Status
 
 - **Current Phase:** Phase 1.5 (DOM & Browser APIs)
-- **Daily Streak:** 🔥 15 Days
+- **Daily Streak:** 🔥 16 Days
 - **Overall Progress:** 68%
-- **Next Step:** Advanced Form Techniques: FormData, Input Types (Checkbox/Select), Regex Validation, and Real-time Validation (Phase 1.5)
+- **Next Step:** Mini Project: Notes App (Vanilla JavaScript) - Phase 1.5 Integration (Phase 1.5)
 
 ---
 
 ## 📅 Daily Progress Log
 
 | Date| Task / Project|GitHub Commit|
+| 6/6/2026| Conceptualized: Advanced Form Logic (FormData, Checkbox, Select) | docs: clarify advanced form requirements for mini-project |
 | 5/6/2026| Completed: Basic HTML Form Handling & Validation | feat: implement basic form submission and validation logic |
 | 5/6/2026| Planned: Study HTML Forms before proceeding to Practice 2 | docs: sync roadmap with curriculum phases |
 | 5/6/2026| Re-implemented: DOM Practice 1 (Ex 6 & 7) with optimized patterns | feat: master event delegation and state persistence in vanilla JS|
@@ -159,8 +160,9 @@ To explore the code or run the mini-projects locally:
 5. **Progress Tracking Isolation:** When updating progress or modifying curriculum files (`README.md`, `ROADMAP.md`, `SIMULATION-MODULES.md`), the AI must exclusively target the absolute path in the project root (`d:\BroxApp\Projects\react-mastery-curriculum-with-gemini\`). Creating duplicate `README.md` files in subdirectories is strictly forbidden. This does not apply to source code files (e.g., `.jsx`, `.css`) which should be edited in their respective directories.
 6. **Final Amendment (Immutable Protocol):** This is the final structural change to the curriculum files. From this point forward, the ONLY authorized modifications to these files are updates to "Current Status", "Overall Progress", and the "Daily Progress Log". The core syllabus, rules, and logic are now frozen.
 7. **Session Startup Protocol:** At the start of every session, the Mentor is OBLIGATED to read the `Current Status` from the root `README.md`, announce the current Phase and Next Step to the Student, and wait for explicit confirmation before proceeding.
+8. **Mentoring Standards Reference:** The detailed Mentoring and Engineering Standards are defined in `continue/rules/communication-standards-for-react-mentoring.md`. The Mentor is OBLIGATED to review this file and the root `README.md` before every session to ensure full compliance with established standards.
 
 ---
 
-**Mentor:** Gemini Code Assist
+**Mentor:** Continue by Gemini
 **Student:** Brox

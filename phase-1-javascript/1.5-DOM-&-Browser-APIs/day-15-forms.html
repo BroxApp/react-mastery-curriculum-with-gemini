@@ -6,11 +6,16 @@
     <title>day-15-forms</title>
 </head>
 <body>
-    <form id="myForm" action="">
-        <input type="text" id="firstName">
-        <input type="text" id="lastName">
-        <input type="text" id="skill">
-        <button type="submit" id="submit">submit</button>
+    <form name="myForm" id="myForm" action="">
+        <input name="firstName" type="text" id="firstName">
+        <input name="lastName" type="text" id="lastName">
+        <input name="skill" type="text" id="skill">
+        <input name="checkbox" type="checkbox" id="checkbox">
+        <select name="selectbox" id="selectbox">
+            <option value="canada">Canada</option>
+            <option value="germany">Germany</option>
+        </select>
+        <button name="submit" type="submit" id="submit">submit</button>
     </form>
     <p id="formErrorMessage"></p>
 
