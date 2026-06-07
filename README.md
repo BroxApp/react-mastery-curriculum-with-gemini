@@ -26,6 +26,7 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📅 Daily Progress Log
 
 | Date| Task / Project|GitHub Commit|
+| 7/6/2026 | Completed: DOM Practice (day-13-practice-2.js) - Exercise 3 | feat: implemented third exercise focusing on advanced DOM manipulation and event handling |
 |7/6/2026 | Completed: DOM Practice (day-13-practice-2.js) | feat: built interactive search filter using querySelectorAll, forEach, includes(), and DOM manipulation. Completed 2 exercises including live filtering and button-triggered search implementation with case-insensitive matching|
 | 6/6/2026| Completed: Review Phase 1.4 exercises (mini-project-1-4.js & mini-project-2-challenge.js) | refactor: review and reinforce phase 1.4 concepts |
 | 6/6/2026| Conceptualized: Advanced Form Logic (FormData, Checkbox, Select) | docs: clarify advanced form requirements for mini-project |

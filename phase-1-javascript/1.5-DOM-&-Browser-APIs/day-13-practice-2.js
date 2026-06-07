@@ -53,8 +53,16 @@ searchbtn.addEventListener ('click', ()=>{
 // راهنمایی: event.preventDefault() کلید حل این تمرین است.
 
 //پاسخ تمرین : 3
+const userForm = document.querySelector ('#myForm');
+const userName = document.querySelector ('#name');
+const userAge = document.querySelector ('#age');
 
-
+userForm.addEventListener ('submit', (event)=>{
+    event.preventDefault();
+    console.log(`Name: ${userName.value}, Age: ${userAge.value}`);
+    userName.value = "";
+    userAge.value = "";
+})
 
 // --- تمرین ۴: سیستم لایک ساده (Data Attributes) ---
 // سناریو: ۳ دکمه داری که روی هر کدام نوشته شده "Like". 
