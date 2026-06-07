@@ -6,10 +6,48 @@
         <title>day-13-practice-2</title>
         <style>
             body{background-color: silver;}
+            .practice-1, #myForm{display: flex; align-items: flex-start; justify-content: center; flex-direction:column;}
         </style>
     </head>
     <body>
-        
-        <script></script>
+
+        <div class="practice-1">
+            <h3>practice:1;</h3>
+            <span class="spantext"></span>
+            <textarea name="text" id="text"></textarea>
+        </div>
+
+        <div class="practice-2">
+            <h3>practice:2;</h3>
+            <div class="seachbar">
+                <input type="text" class="searchinput">
+                <button class="searchbtn">search</button>
+            </div>
+            <ul class="dataul">
+                <li>John</li>
+                <li>Michael</li>
+                <li>David</li>
+                <li>James</li>
+                <li>William</li>
+                <li>Daniel</li>
+                <li>Robert</li>
+                <li>Thomas</li>
+                <li>Andrew</li>
+                <li>Joseph</li>
+            </ul>
+        </div>
+
+        <div class="practice-3">
+            <h3>practice:3;</h3>
+            <form id="myForm" action="">
+                <label for="name">Name</label>
+                <input id="name" type="text">
+                <label for="age">age</label>
+                <input id="age" type="text">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <script src="day-13-practice-2.js"></script>
     </body>
 </html>

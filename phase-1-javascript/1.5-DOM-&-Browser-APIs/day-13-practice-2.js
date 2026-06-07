@@ -8,17 +8,52 @@
 // تعداد کاراکترهای باقی‌مانده از ۱۰۰ کاراکتر را در یک المان span نمایش دهد.
 // راهنمایی: از ایونت 'input' استفاده کن و اگر تعداد از ۱۰۰ گذشت، رنگ متن را قرمز کن.
 
+//پاسخ تمرین: 1
+const span = document.querySelector ('.spantext');
+const textarea = document.querySelector ('#text');
+span.textContent = 'Remaining characters: 100'
+textarea.addEventListener ('input', ()=>{
+    const count = textarea.value.length;
+    const remaining = 100 - count;
+    span.textContent = `Remaining characters: ${remaining}`;
+   if (remaining < 0){
+    span.style.color = 'red';
+   }else{
+    span.style.color = 'black';
+   }
+}
+)
 
 // --- تمرین ۲: فیلتر کردن لیست (Array Methods + DOM) ---
 // سناریو: یک لیست از اسامی در DOM داری (مثلاً ۵ تا li). یک Input برای جستجو بالای آن قرار بده.
 // کدی بنویس که با تایپ در اینپوت، فقط آیتم‌هایی که شامل آن حروف هستند نمایش داده شوند و بقیه مخفی (display: none) شوند.
 // راهنمایی: از .querySelectorAll و .forEach استفاده کن.
 
+//پاسخ تمرین: 2
+const searchinput = document.querySelector ('.searchinput');
+const searchbtn = document.querySelector ('.searchbtn');
+const data = document.querySelectorAll ('.dataul li');
+
+searchbtn.addEventListener ('click', ()=>{
+    // searchinput.addEventListener ('input', ()=>{
+        const forSearch = searchinput.value;
+        data.forEach (item=>{
+            if(item.textContent.toLowerCase().includes(forSearch.toLowerCase())){
+                item.style.display = '';
+            }else{
+                item.style.display = 'none';
+            }
+        })
+    // })
+})
 
 // --- تمرین ۳: مدیریت فرم و جلوگیری از ری‌فرش (Form Handling) ---
 // سناریو: یک فرم ساده با دو اینپوت (نام و سن) و یک دکمه Submit بساز.
 // کدی بنویس که موقع کلیک روی دکمه، صفحه ری‌فرش نشود، اطلاعات را در کنسول نمایش دهد و فرم را ریست (clear) کند.
 // راهنمایی: event.preventDefault() کلید حل این تمرین است.
+
+//پاسخ تمرین : 3
+
 
 
 // --- تمرین ۴: سیستم لایک ساده (Data Attributes) ---

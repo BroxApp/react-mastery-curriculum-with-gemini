@@ -15,8 +15,9 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📊 Current Status
 
 - **Current Phase:** Phase 1.5 (DOM & Browser APIs)
-- **Day & Date:** Saturday / 6-6-2026
-- **Daily Streak:** 🔥 16 Days
+- **Day:** Sunday
+- **Date:** 7-6-2026
+- **Daily Streak:** 🔥 17 Days
 - **Overall Progress:** 68%
 - **Next Step:** Mini Project: Notes App (Vanilla JavaScript) - Phase 1.5 Integration (Phase 1.5)
 
@@ -25,6 +26,8 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📅 Daily Progress Log
 
 | Date| Task / Project|GitHub Commit|
+|7/6/2026 | Completed: DOM Practice (day-13-practice-2.js) | feat: built interactive search filter using querySelectorAll, forEach, includes(), and DOM manipulation. Completed 2 exercises including live filtering and button-triggered search implementation with case-insensitive matching|
+| 6/6/2026| Completed: Review Phase 1.4 exercises (mini-project-1-4.js & mini-project-2-challenge.js) | refactor: review and reinforce phase 1.4 concepts |
 | 6/6/2026| Conceptualized: Advanced Form Logic (FormData, Checkbox, Select) | docs: clarify advanced form requirements for mini-project |
 | 5/6/2026| Completed: Basic HTML Form Handling & Validation | feat: implement basic form submission and validation logic |
 | 5/6/2026| Planned: Study HTML Forms before proceeding to Practice 2 | docs: sync roadmap with curriculum phases |
