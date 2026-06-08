@@ -5,12 +5,54 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>day-13-practice-2</title>
         <style>
+            .styled-table {
+                border-collapse: collapse;
+                margin: 25px 0;
+                font-size: 0.9em;
+                font-family: sans-serif;
+                min-width: 400px;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+                direction: rtl;
+                text-align: right;
+            }
+            .styled-table themes {
+                background-color: #2f2c77; 
+                color: #ffffff;
+            }
+            .styled-table th, .styled-table td {
+                padding: 12px 15px;
+                border: 1px solid #dddddd;
+            }
+            .highlight-row {
+                background-color: #f1f0ff !important;
+                color: #2f2c77;
+                font-weight: bold;
+            }
             body{background-color: silver;}
-            .practice-1, #myForm{display: flex; align-items: flex-start; justify-content: center; flex-direction:column;}
+                .practice-1, #myForm{display: flex; align-items: flex-start; justify-content: center; flex-direction:column;}
+                .todo-list {
+                list-style: none;
+                padding: 0;
+                max-width: 300px;
+                direction: rtl;
+            }
+            .todo-list li {
+                padding: 10px;
+                background-color: #f4f4f4;
+                margin-bottom: 5px;
+                cursor: pointer;
+                border-radius: 4px;
+                transition: all 0.3s;
+                color: #333;
+            }
+            .todo-list li.completed {
+                text-decoration: line-through;
+                opacity: 0.5;
+                background-color: #d4edda; 
+            }
         </style>
     </head>
     <body>
-
         <div class="practice-1">
             <h3>practice:1;</h3>
             <span class="spantext"></span>
@@ -46,6 +88,67 @@
                 <input id="age" type="text">
                 <button class="formBtn" type="submit">Submit</button>
             </form>
+        </div>
+
+        <div class="practice-4">
+            <h3>practice:4;</h3>
+            <button class="likeBtn">like:<span>0</span></button>
+            <button class="likeBtn">like:<span>0</span></button>
+            <button class="likeBtn">like:<span>0</span></button>
+        </div>
+
+        <div class="practice-5">
+            <h3>practice:5;</h3>
+            <div class="savedSettings"></div>
+        </div>
+
+        <div class="practice-6">
+        <h3>practice:6 (جدول هوشمند);</h3>
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th>شماره ردیف</th>
+                    <th>نام بخش</th>
+                    <th>وضعیت</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>داشبورد کاربری</td>
+                    <td>تکمیل شده</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>تنظیمات پروفایل</td>
+                    <td>در حال بررسی</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>مدیریت کیف پول</td>
+                    <td>انتظار</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>پشتیبانی آنلاین</td>
+                    <td>تکمیل شده</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>تاریخچه تراکنش‌ها</td>
+                    <td>در حال بررسی</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        </div>
+
+        <div class="practice-7">
+            <h3>practice:7 (لیست وظایف هوشمند)</h3>
+            <ul class="todo-list" id="todoList">
+
+            </ul>
+            
         </div>
 
         <script src="day-13-practice-2.js"></script>

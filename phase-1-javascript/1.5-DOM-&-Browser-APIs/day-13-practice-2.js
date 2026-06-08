@@ -69,6 +69,28 @@ userForm.addEventListener ('submit', (event)=>{
 // کدی بنویس که با کلیک روی هر کدام، عددِ کنار آن دکمه یک واحد زیاد شود.
 // راهنمایی: برای هر دکمه یک عدد در حافظه نگه ندار! از dataset یا textContent استفاده کن.
 
+//پاسخ تمرین: 4
+const buttons = document.querySelectorAll('.likeBtn');
+buttons.forEach((button)=>{
+    const spanNum = button.querySelector ('span');
+    let currentNumber = Number (spanNum.textContent);
+    button.addEventListener('click', ()=>{
+        currentNumber++;
+        spanNum.textContent = currentNumber;
+
+    })
+})
+
+// const likeBtn1 = document.querySelectorAll ('.likeBtn');
+// console.log(likeBtn1);
+// likeBtn1.forEach((btn)=>{
+// btn.addEventListener('click', ()=>{
+// const span = btn.querySelector ('span');
+// let currentLikes = Number(span.textContent);
+// currentLikes++;
+// span.textContent = currentLikes;
+// })
+// })
 
 // --- تمرین ۵: مدیریت وضعیت پیشرفته با LocalStorage ---
 // سناریو: می‌خواهیم تنظیمات کاربر را ذخیره کنیم.
@@ -77,6 +99,22 @@ userForm.addEventListener ('submit', (event)=>{
 // ۳. تابعی بنویس که این شیء را بخواند و بر اساس آن، استایل‌های body را در بدو ورود کاربر تنظیم کند.
 // راهنمایی: یادت باشد که برای ذخیره شیء باید از JSON.stringify استفاده کنی.
 
+//پاسخ تمرین: 5
+const userSettings = { theme: 'dark', fontSize: '14px', notifications: true };
+const showSavedSettings = document.querySelector('.savedSettings');
+
+localStorage.setItem('setting', JSON.stringify(userSettings));
+
+const applySettings = ()=> {
+    const savedSettings = JSON.parse(localStorage.getItem('setting'));
+    showSavedSettings.textContent = localStorage.getItem('setting');
+    if (savedSettings.theme === 'dark'){
+        document.body.style.backgroundColor = '#2f2c77';
+        document.body.style.color = '#ffffff';
+    }
+    document.body.style.fontSize = savedSettings.fontSize;
+}
+applySettings();
 
 // --- تمرین ۶: Event Delegation (چالش مهندسی) ---
 // سناریو: یک جدول (table) با ۱۰ ردیف داری. 
@@ -84,11 +122,35 @@ userForm.addEventListener ('submit', (event)=>{
 // کدی بنویس که با کلیک روی هر ردیف، رنگ پس‌زمینه "همان ردیف" تغییر کند.
 // راهنمایی: از event.target برای پیدا کردن المانی که واقعاً روی آن کلیک شده استفاده کن.
 
+//پاسخ تمرین: 6
+const myTable = document.querySelector ('.styled-table');
+myTable.addEventListener('click', (event)=>{
+    const myRow = event.target.closest('tr');
+    if(myRow){
+    myRow.classList.toggle('highlight-row');
+    }
+})
 
 // --- تمرین ۷: چالش نهایی - لیست وظایف با وضعیت "انجام شد" ---
 // ۱. برنامه لیست وظایف (Todo) را طوری ارتقا بده که وقتی روی متنِ یک وظیفه کلیک می‌شود، 
 // یک کلاس CSS به نام 'completed' به آن اضافه/حذف شود (خط خوردن متن).
 // ۲. این وضعیت (که کدام آیتم انجام شده و کدام نه) باید در LocalStorage ذخیره شود تا با رفرش صفحه از بین نرود.
 // راهنمایی: به جای ذخیره فقط متن در آرایه، آرایه‌ای از اشیاء ذخیره کن: [{ text: 'Learn DOM', done: true }]
+
+//پاسخ تمرین: 7
+const todos = [
+    { text: 'مطالعه جاوااسکریپت', done: false },
+    { text: 'تمرین کدنویسی با کمک هوش مصنوعی', done: true },
+    { text: 'تمرین و مطالعه‌ی ری‌اکت', done: true },
+    { text: 'انجام پروژه‌های کوچک جاوااسکریپت', done: true },
+    { text: 'انجام پروژه‌های فریلنسری', done: false },
+];
+const todoList = document.querySelector('.todo-list');
+
+const renderTodos = ()=>{
+    todoList.innerHTML = '';
+}
+
+
 
 console.log("تمرینات سطح ۲ آماده است. این‌ها پایه و اساس ری‌اکت هستند، با دقت انجامشان بده!");
