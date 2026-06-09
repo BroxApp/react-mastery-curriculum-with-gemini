@@ -137,39 +137,66 @@ myTable.addEventListener('click', (event)=>{
 // ۲. این وضعیت (که کدام آیتم انجام شده و کدام نه) باید در LocalStorage ذخیره شود تا با رفرش صفحه از بین نرود.
 // راهنمایی: به جای ذخیره فقط متن در آرایه، آرایه‌ای از اشیاء ذخیره کن: [{ text: 'Learn DOM', done: true }]
 
-//پاسخ تمرین: 7
-const todos = JSON.parse(localStorage.getItem('myTodoList')) || [
+//پاسخ تمرین: 7 // بار دوم
+const todos = [
     { text: 'مطالعه جاوااسکریپت', done: false },
     { text: 'تمرین کدنویسی با کمک هوش مصنوعی', done: true },
     { text: 'تمرین و مطالعه‌ی ری‌اکت', done: true },
     { text: 'انجام پروژه‌های کوچک جاوااسکریپت', done: true },
     { text: 'انجام پروژه‌های فریلنسری', done: false },
 ];
-const todoList = document.querySelector('.todo-list');
 
-const renderTodos = ()=>{
-    todoList.innerHTML = '';
-    todos.forEach((task, index)=>{
-        const taskLi = document.createElement ('li');
-        taskLi.textContent = task.text;
-        taskLi.dataset.index = index;
-        todoList.appendChild(taskLi);
-        if (task.done === true){
-            taskLi.classList.add('completed');
-        }
-    })
 
-}
-todoList.addEventListener ('click', (event)=>{
-    const clickedLi = event.target.closest ('li');
-    if (clickedLi) {
-    const index = clickedLi.dataset.index;
-    todos[index].done = !todos[index].done;
-    localStorage.setItem('myTodoList', JSON.stringify(todos));
-    renderTodos();
-    }
-})
-renderTodos();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// //پاسخ تمرین: 7// بار اول
+// const todos = JSON.parse(localStorage.getItem('myTodoList')) || [
+//     { text: 'مطالعه جاوااسکریپت', done: false },
+//     { text: 'تمرین کدنویسی با کمک هوش مصنوعی', done: true },
+//     { text: 'تمرین و مطالعه‌ی ری‌اکت', done: true },
+//     { text: 'انجام پروژه‌های کوچک جاوااسکریپت', done: true },
+//     { text: 'انجام پروژه‌های فریلنسری', done: false },
+// ];
+// const todoList = document.querySelector('.todo-list');
+
+// const renderTodos = ()=>{
+//     todoList.innerHTML = '';
+//     todos.forEach((task, index)=>{
+//         const taskLi = document.createElement ('li');
+//         taskLi.textContent = task.text;
+//         taskLi.dataset.index = index;
+//         todoList.appendChild(taskLi);
+//         if (task.done === true){
+//             taskLi.classList.add('completed');
+//         }
+//     })
+
+// }
+// todoList.addEventListener ('click', (event)=>{
+//     const clickedLi = event.target.closest ('li');
+//     if (clickedLi) {
+//     const index = clickedLi.dataset.index;
+//     todos[index].done = !todos[index].done;
+//     localStorage.setItem('myTodoList', JSON.stringify(todos));
+//     renderTodos();
+//     }
+// })
+// renderTodos();
 
 
 
