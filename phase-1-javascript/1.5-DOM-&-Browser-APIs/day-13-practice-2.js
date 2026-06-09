@@ -138,7 +138,7 @@ myTable.addEventListener('click', (event)=>{
 // راهنمایی: به جای ذخیره فقط متن در آرایه، آرایه‌ای از اشیاء ذخیره کن: [{ text: 'Learn DOM', done: true }]
 
 //پاسخ تمرین: 7 // بار دوم
-const todos = [
+const todos = JSON.parse(localStorage.getItem('task-list')) || [
     { text: 'مطالعه جاوااسکریپت', done: false },
     { text: 'تمرین کدنویسی با کمک هوش مصنوعی', done: true },
     { text: 'تمرین و مطالعه‌ی ری‌اکت', done: true },
@@ -146,12 +146,31 @@ const todos = [
     { text: 'انجام پروژه‌های فریلنسری', done: false },
 ];
 
+const todoList = document.querySelector ('.todo-list');
+
+const todo = ()=>{
+    todoList.innerHTML = "";
+    todos.forEach ((task, index)=>{
+        const newLi = document.createElement ('li');
+        newLi.dataset.index = index;
+        newLi.textContent = task.text;
+        todoList.appendChild (newLi);
+         if (task.done === true){
+            newLi.classList.add('completed');
+         }
+    })
+    localStorage.setItem('task-list', JSON.stringify(todos))
+}
+todo();
 
 
-
-
-
-
+    todoList.addEventListener ('click', (event)=>{
+    const clickedItem = event.target;
+    clickedItem.classList.toggle ('completed');
+    const indexData = clickedItem.dataset.index;
+    todos[indexData].done = !todos[indexData].done;
+    todo();
+}) 
 
 
 
