@@ -16,8 +16,8 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 - **Current Phase:** Phase 1.5 (DOM & Browser APIs)
 - **Day:** wednsday
-- **Date:** 11-6-2026
-- **Daily Streak:** 🔥 20 Days
+- **Date:** 12-6-2026
+- **Daily Streak:** 🔥 21 Days
 - **Overall Progress:** 68%
 - **Next Step:** mini-project-1.5-forms.js
 
@@ -26,7 +26,8 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📅 Daily Progress Log
 
 | Date| Task / Project|GitHub Commit|
-| 11/6/2026 | Initialized: Project Environment Setup & DOM Selectors Mapping | feat: setup base selectors and workspace for notes app |
+| 12/6/2026 | Completed: Phase 1.5 Capstone - Notes App with State-Driven UI & LocalStorage Sync | feat: implement live validation, FormData extraction, and persistence layer |
+| 11/6/2026 | Initialized: Project Environment Setup & DOM Selectors Mapping | feat: setup base selectors and workspace for notes app|
 | 10/6/2026 | Conceptualized: Architectural Design & Engineering Analysis for Phase 1.5 Capstone (Notes App) | docs: establish architecture plan and data-driven milestones |
 | 9/6/2026 | Completed: Redid Exercise 7 with Data-Driven Architecture & LocalStorage synchronization | feat: complete day-13-practice-2.js exercises 7 |
 | 9/6/2026 | Completed: Conceptual Analysis of State Management & Architecture (Exercise 7 Preparation) | feat: complete day-13-practice-2.js exercises 7 |
