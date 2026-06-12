@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+        <title>simple notebook app</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="main-container">
+            <h1>Simple NoteBook App</h1>
+
+            <div class="note-form">
+                <form action="" class="noteForm" name="noteForm">
+            
+                    <div class="note-title">
+                        <label for="title">Insert Your Note Title Hear Pleas:</label>
+                        <input type="text" class="title" name="title">
+                        <span class="title-error" name="title-error"></span>
+                    </div>
+
+                    <div class="note-content">
+                        <label for="content">Insert Your Note Content Hear Pleas:</label>
+                        <textarea name="content" id="content"></textarea>
+                        <span class="content-error" name="content-error"></span>
+                    </div>
+
+                    <div class="select-category">
+                        <label for="category">Select The Note Category:</label>
+                        <select name="category" id="category" class="category">
+                        <option value="Private">Private</option>
+                        <option value="Work">Work</option>
+                        <option value="Ideas">Ideas</option>
+                        </select>
+                    </div>
+
+                    <div class="check-box">
+                        <label for="check-box">Is Important?</label>
+                        <input type="checkbox" name="checkbox" class="checkbox">
+                        <button name="submit" id="submit" type="submit">submit</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="note-box">
+                <label for="note-cards">Your Notes:</label>
+                <div class="note-cards"></div>
+                <span class="impty-noteBook">Your Notebook Is Impty. Pleas Insert Your Note.</span>
+            </div>
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+</html>

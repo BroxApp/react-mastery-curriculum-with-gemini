@@ -1,0 +1,48 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.note-form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 90vw;
+    height: 55vh;
+    border: 1px solid #f8b200;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.note-title,
+.note-content,
+.select-category{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+}
+
+.check-box{
+    display: flex;
+    margin: 10px;
+}
+
+.note-box{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 45vh;
+    border: 1px solid #f8b200;
+    border-radius: 5px;
+}
+
+.note-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3px;
+}
+

@@ -15,17 +15,18 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📊 Current Status
 
 - **Current Phase:** Phase 1.5 (DOM & Browser APIs)
-- **Day:** wednsday
+- **Day:** friday
 - **Date:** 12-6-2026
 - **Daily Streak:** 🔥 21 Days
 - **Overall Progress:** 68%
-- **Next Step:** mini-project-1.5-forms.js
+- **Next Step:** mini-project-1.5-forms.js (again)
 
 ---
 
 ## 📅 Daily Progress Log
 
 | Date| Task / Project|GitHub Commit|
+| 12/6/2026 | Restructured: Phase 1.5 Capstone - Notes App UI Setup | feat: build and refine base HTML structure and CSS styling |
 | 12/6/2026 | Completed: Phase 1.5 Capstone - Notes App with State-Driven UI & LocalStorage Sync | feat: implement live validation, FormData extraction, and persistence layer |
 | 11/6/2026 | Initialized: Project Environment Setup & DOM Selectors Mapping | feat: setup base selectors and workspace for notes app|
 | 10/6/2026 | Conceptualized: Architectural Design & Engineering Analysis for Phase 1.5 Capstone (Notes App) | docs: establish architecture plan and data-driven milestones |
