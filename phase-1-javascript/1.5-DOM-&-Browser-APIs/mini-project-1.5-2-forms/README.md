@@ -205,11 +205,11 @@ form.addEventListener('submit', (event) => {
 
 ```javascript
 {
-  id: Date.now(),         // شناسه‌ی یکتا — از تایم‌استمپ استفاده کن
+  id: Date.now(),// شناسه‌ی یکتا — از تایم‌استمپ استفاده کن
   title: "عنوان",
   content: "محتوا",
-  category: "work",       // یکی از: 'work' | 'personal' | 'ideas'
-  isImportant: false      // true یا false
+  category: "work",  // یکی از: 'work' | 'personal' | 'ideas'
+  isImportant: false// true یا false
 }
 ```
 
