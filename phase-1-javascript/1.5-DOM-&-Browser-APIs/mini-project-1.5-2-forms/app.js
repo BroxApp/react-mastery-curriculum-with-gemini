@@ -1,6 +1,8 @@
 let notes = [];
 
 const form = document.querySelector ('.noteForm');
+const title = document.querySelector ('.title');
+const content = document.querySelector ('.content');
 const titleError = document.querySelector ('.title-error');
 const contentError = document.querySelector ('.content-error');
 const forbiddenChars = /[<>{}]/;
@@ -23,6 +25,22 @@ form.addEventListener ('submit', (event)=>{
     }
     const category = formData.get ('category');
     const checkbox = formData.get ('checkbox');
+})
+
+title.addEventListener ('input', ()=>{
+    if (title.value.trim()=== ""){
+        titleError.textContent = 'Title Cannot Be Impty';
+    }else{
+        titleError.textContent = '';
+    }
+})
+
+content.addEventListener ('input', ()=>{
+    if (content.value.trim()==="" || forbiddenChars.test(content)){
+        contentError.textContent = 'This Content Is Invalid';
+    }else{
+        contentError.textContent = '';
+    }
 })
 
 const seveToStorage = ()=>{
