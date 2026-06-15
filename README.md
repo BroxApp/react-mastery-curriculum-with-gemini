@@ -15,17 +15,18 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📊 Current Status
 
 - **Current Phase:** Phase 1.5 (DOM & Browser APIs)
-- **Day:** Sunday
+- **Day:** Monday
 - **Date:** 15-6-2026
 - **Daily Streak:** 🔥 25 Days
-- **Overall Progress:** 68%
-- **Next Step:** mini-project-1.5-forms.js (again)
+- **Overall Progress:** 70%
+- **Next Step:**  Milestone 4 - DOM Rendering
 
 ---
 
 ## 📅 Daily Progress Log
 
 | Date| Task / Project|GitHub Commit|
+| 15/6/2026 | Completed: Phase 1.5 Capstone - Data Extraction & State Mutation (Milestone 3) | feat: implemented form data extraction, dynamic object packaging, state mutation via array push, and form reset |
 | 15/6/2026 | Completed: Phase 1.5 Capstone - Real-time Validation (Milestone 2 - Part 2) | feat: add input event listener, fix DOM value references, and establish multi-layer defense |
 | 14/6/2026 | Completed: Phase 1.5 Capstone - Form Interception & Validation (Milestone 2 - Part 1) | feat: implement preventDefault, FormData extraction, and Regex validation |
 | 12/6/2026 | Restructured: Phase 1.5 Capstone - Notes App UI Setup | feat: build and refine base HTML structure and CSS styling |

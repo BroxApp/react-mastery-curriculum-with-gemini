@@ -25,6 +25,18 @@ form.addEventListener ('submit', (event)=>{
     }
     const category = formData.get ('category');
     const checkbox = formData.get ('checkbox');
+    if (titleError.textContent === "" && contentError.textContent === ""){
+        const isImportant = checkbox === 'on';
+        const newNote = {
+            id : Date.now(),
+            title : title,
+            content : content,
+            category : category,
+            isImportant : isImportant
+        }
+       notes.push(newNote);
+       form.reset();
+    }
 })
 
 title.addEventListener ('input', ()=>{
