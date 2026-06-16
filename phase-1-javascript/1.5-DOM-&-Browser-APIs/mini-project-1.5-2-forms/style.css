@@ -46,3 +46,51 @@
     gap: 3px;
 }
 
+/* استایل بدنه اصلی هر کارت */
+.note-card {
+    background-color: #fffdf5; /* یک زردِ خیلی روشن و ملایم شبیه کاغذ یادداشت */
+    border-left: 5px solid #f8b200; /* نوار کناری نارنجی/زرد */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* یک سایه بسیار نرم برای عمق دادن */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* فاصله یکدست بین عنوان، دسته‌بندی و متن */
+    transition: transform 0.2s; /* برای افکت هاور */
+}
+
+/* افکت جذاب وقتی ماوس روی کارت می‌رود */
+.note-card:hover {
+    transform: translateY(-5px);
+}
+
+/* استایل عنوان کارت */
+.note-card h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* استایل برچسب دسته‌بندی */
+.note-card span {
+    font-size: 0.75rem;
+    background-color: #f8b200;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 12px;
+    align-self: flex-start; /* باعث می‌شود پس‌زمینه فقط به اندازه متن باشد */
+}
+
+/* استایل متن اصلی یادداشت */
+.note-card p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* کلاسی برای یادداشت‌های مهم (حاشیه قرمز) */
+.note-card.important {
+    border-left: 5px solid #ff4d4d; 
+    background-color: #fff5f5;
+}
