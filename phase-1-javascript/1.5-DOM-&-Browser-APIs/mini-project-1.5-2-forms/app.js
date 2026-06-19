@@ -6,6 +6,7 @@ const content = document.querySelector ('.content');
 const titleError = document.querySelector ('.title-error');
 const contentError = document.querySelector ('.content-error');
 const cardsContainers = document.querySelector ('.note-cards');
+const imptyNotebook = document.querySelector ('.impty-notebook');
 const forbiddenChars = /[<>{}]/;
 
 const renderNotes = ()=>{
@@ -19,10 +20,18 @@ const renderNotes = ()=>{
         <span>${note.category}</span>
         <p>${note.content}</p>
         `;
+        if(note.isImportant === true){
+            card.classList.add ('important');
+        }
         cardsContainers.appendChild(card);
     })
-
+    if(notes.length > 0){
+        imptyNotebook.textContent = "";
+    }else{
+        imptyNotebook.textContent = "Your Notebook Is Impty. Pleas Insert Your Note.";
+    }
 }
+renderNotes();
 
 form.addEventListener ('submit', (event)=>{
     event.preventDefault ();
@@ -54,6 +63,7 @@ form.addEventListener ('submit', (event)=>{
        notes.push(newNote);
        form.reset();
        renderNotes();
+       seveToStorage();
     }
 })
 
@@ -77,8 +87,10 @@ const seveToStorage = ()=>{
     localStorage.setItem('notes',JSON.stringify(notes));
 }
 
-const loadFromStorage = ()=>{
+const loadFromStorage = () => {
     const saved = localStorage.getItem('notes');
     notes = saved ? JSON.parse (saved) : [];
 }
 
+loadFromStorage();
+renderNotes();
