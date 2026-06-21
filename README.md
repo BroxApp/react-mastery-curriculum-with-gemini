@@ -14,18 +14,19 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 ## 📊 Current Status
 
-- **Current Phase:** Phase 1.6 Async JavaScript/callbacks
-- **Day:** Friday
-- **Date:** 20-6-2026
-- **Daily Streak:** 🔥 30 Days
-- **Overall Progress:** 72%
-- **Next Step:** Promises
+- **Current Phase:** Phase 1.6 Async JavaScript/Promises
+- **Day:** Sunday
+- **Date:** 21-6-2026
+- **Daily Streak:** 🔥 31 Days
+- **Overall Progress:** 74%
+- **Next Step:** async/await
 
 ---
 
 ## 📅 Daily Progress Log
 
 | Date| Task / Project|GitHub Commit|
+ | 21/6/2026 | Completed: Phase 1.6 - Asynchronous JavaScript (Promises) | feat: implement Promise-based user fetching with resolve, reject, and error handling logic |
 | 20/6/2026 | Completed: Phase 1.6 - Asynchronous JavaScript (Callbacks) | feat: implement asynchronous callbacks with setTimeout and callback chaining |
 | 19/6/2026 | Completed: Phase 1.5 Capstone - Full Persistence & Dynamic UI | feat: successfully finalized data-driven notes app with real-time validation, local storage persistence, and conditional rendering |
 | 19/06/2026 | Completed: Phase 1.5 Capstone - Dynamic UI Bugfix & State Sync | feat: fixed empty notebook message persistence on page refresh by shifting toggle logic inside renderNotes engine |

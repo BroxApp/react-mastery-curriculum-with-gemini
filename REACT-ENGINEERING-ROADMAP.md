@@ -187,10 +187,10 @@ The focus is:
 
 ### Topics
 
-- [X] DOM manipulation
-- [X] events
-- [X] forms
-- [X] localStorage
+- [x] DOM manipulation
+- [x] events
+- [x] forms
+- [x] localStorage
 
 ### 📌 Mini Project
 
@@ -200,7 +200,7 @@ The focus is:
 
 ### Topics
 
-- [ ] callbacks
+- [x] callbacks
 - [ ] promises
 - [ ] async/await
 - [ ] fetch API
