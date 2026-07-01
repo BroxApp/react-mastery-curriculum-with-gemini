@@ -31,12 +31,26 @@ return new Promise ((resolve, reject)=>{
 })
 }
 
-checkBalance(500)
-.then((data)=>console.log(data))
-.catch((error)=>console.log(error))
-.finally(()=>console.log("موفق باشی"))
+// checkBalance(500)
+// .then((data)=>console.log(data))
+// .catch((error)=>console.log(error))
+// .finally(()=>console.log("موفق باشی"))
 
-checkBalance(1500)
-.then((data)=>console.log(data))
-.catch((error)=>console.log(error))
-.finally(()=>console.log("موفق باشی"))
+// checkBalance(1500)
+// .then((data)=>console.log(data))
+// .catch((error)=>console.log(error))
+// .finally(()=>console.log("موفق باشی"))
+
+async function handlePayment (balance){
+    try{
+        const result = await checkBalance(balance);
+        console.log(result);
+    }catch(error){
+        console.error(error);
+    }finally{
+        console.log("موفق باشی");
+    }
+}
+
+handlePayment (500);
+handlePayment (1500);

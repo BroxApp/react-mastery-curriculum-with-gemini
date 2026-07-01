@@ -27,6 +27,8 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 | Date | Progress Summary | Commit Focus |
 | --- | --- | --- |
+ | 1/7/2026 | Completed: Phase 1.6 - Asynchronous JavaScript (Async/Await Mastery) | `feat`: implement user fetching system using async/await, try/catch, and promise handling |
+| 1/7/2026 | Completed: Phase 1.6 - Asynchronous JavaScript (Async/Await) | `feat`: implement payment logic using async/await and try/catch error handling |
 | 1/7/2026 | Completed: Phase 1.6 - Asynchronous JavaScript (Promises Practice) | ‍‍`feat`: implement wallet balance check system using Promises and async flow handling |
 | 21/6/2026 | Completed Phase 1.6 Promises practice. | `feat`: Promise-based user fetching and error handling |
 | 20/6/2026 | Completed Phase 1.6 callbacks practice. | `feat`: async callbacks and callback chaining |
