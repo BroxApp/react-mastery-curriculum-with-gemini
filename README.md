@@ -14,48 +14,49 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 ## 📊 Current Status
 
-- **Current Phase:** Phase 1.6 Async JavaScript/async/await
-- **Day:** Sunday
-- **Date:** 1-7-2026
-- **Daily Streak:** 🔥 32 Days
-- **Overall Progress:** 74%
-- **Next Step:** fetch API
+- **Current Phase:** Mini Project: Random User Explorer
+- **Day:** Thursday
+- **Date:** 2-7-2026
+- **Daily Streak:** 🔥 33 Days
+- **Overall Progress:** 80%
+- **Next Step:** Phase 1.7 : Modern CSS
 
 ---
 
 ## 📅 Daily Progress Log
 
-| Date | Progress Summary | Commit Focus |
-| --- | --- | --- |
-| 1/7/2026 | Completed: Phase 1.6 - Asynchronous JavaScript (Callbacks, Promises, Async/Await & Fetch) | `feat`: finalize async JS mastery with promise-based logic, error handling, and real API integration |
-| 21/6/2026 | Completed Phase 1.6 Promises practice. | `feat`: Promise-based user fetching and error handling |
-| 20/6/2026 | Completed Phase 1.6 callbacks practice. | `feat`: async callbacks and callback chaining |
-| 19/6/2026 | Advanced Notes App dynamic UI, persistence, and state sync. | `feat`: render logic, conditional UI, and refresh bugfix |
-| 16/6/2026 | Built the Notes App DOM rendering engine. | `feat`: renderNotes with dynamic DOM creation |
-| 15/6/2026 | Added form data extraction, validation, and state mutation. | `feat`: input validation, FormData, state updates |
-| 14/6/2026 | Implemented form interception and validation foundations. | `feat`: preventDefault, FormData, Regex validation |
-| 12/6/2026 | Structured the Notes App UI and persistence layer. | `feat`: base UI, live validation, localStorage |
-| 11/6/2026 | Set up Notes App selectors and workspace. | `feat`: base selectors and project setup |
-| 10/6/2026 | Planned the Notes App architecture and milestones. | `docs`: architecture and data-driven roadmap |
-| 9/6/2026 | Reworked Exercise 7 with state and localStorage concepts. | `feat`: data-driven exercise implementation |
-| 8/6/2026 | Continued DOM practice exercises. | `feat`: DOM exercises 4-7 |
-| 7/6/2026 | Built interactive DOM search and event handling exercises. | `feat`: querySelectorAll, forEach, includes, events |
-| 6/6/2026 | Reviewed Phase 1.4 and clarified advanced form logic. | `refactor/docs`: Phase 1.4 review and form planning |
-| 5/6/2026 | Practiced HTML forms, validation, and DOM optimization. | `feat/docs`: form handling and roadmap sync |
-| 4/6/2026 | Completed DOM practice basics and HTML setup. | `feat`: DOM manipulation and events |
-| 3/6/2026 | Practiced DOM, localStorage, events, and product filtering. | `feat`: persistence, theme toggler, filtering engine |
-| 2/6/2026 | Practiced array methods. | `feat`: find and sort |
-| 1/6/2026 | Reinforced ES6+, destructuring, array methods, and immutability. | `feat/docs`: exercises, study notes, progress update |
-| 31/5/2026 | Completed immutability practice and adjusted AI workflow. | `feat`: Day 10 exercise and inline suggestion cleanup |
-| 30/5/2026 | Mastered logic operators, resolved conflicts, and evaluated IDX. | `feat/docs`: logic exercise, remote workflow notes |
-| 29/5/2026 | Reviewed logic and planned calculatePrice re-implementation. | `docs`: logic review and implementation plan |
-| 28/5/2026 | Covered truthy/falsy logic, memory management, and Phase 1.1 setup. | `feat/docs`: logic practice, references, variables setup |
-| 27/5/2026 | Finished Phase 0 milestones and README standards. | `feat/docs`: Phase 0 completion, license, workflow |
-| 26/5/2026 | Practiced Git branching, merging, PR workflow, and sync. | `feat/docs`: branches, merge, CONTRIBUTING, remote sync |
-| 25/5/2026 | Started Git/GitHub workflow and formalized startup protocol. | `feat/docs`: repository init, commits, remote setup |
-| 24/5/2026 | Completed environment cleanup, terminal practice, and curriculum audit. | `feat/fix/docs`: setup, PowerShell, immutable protocol |
-| 23/5/2026 | Explored Vite, React entry points, SPA architecture, and dev server. | `setup/docs`: first React project workflow |
-| 22/5/2026 | Planned the learning curriculum and AI mentoring setup. | `docs`: curriculum planning |
+| Date      | Progress Summary                                                                          | Commit Focus                                                                                         |
+| --------- | ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| 2/7/2026  | Completed: Mini Project - Random User Explorer                                            | feat: finalize interactive dashboard with fetch API and dynamic DOM rendering                        |
+| 1/7/2026  | Completed: Phase 1.6 - Asynchronous JavaScript (Callbacks, Promises, Async/Await & Fetch) | `feat`: finalize async JS mastery with promise-based logic, error handling, and real API integration |
+| 21/6/2026 | Completed Phase 1.6 Promises practice.                                                    | `feat`: Promise-based user fetching and error handling                                               |
+| 20/6/2026 | Completed Phase 1.6 callbacks practice.                                                   | `feat`: async callbacks and callback chaining                                                        |
+| 19/6/2026 | Advanced Notes App dynamic UI, persistence, and state sync.                               | `feat`: render logic, conditional UI, and refresh bugfix                                             |
+| 16/6/2026 | Built the Notes App DOM rendering engine.                                                 | `feat`: renderNotes with dynamic DOM creation                                                        |
+| 15/6/2026 | Added form data extraction, validation, and state mutation.                               | `feat`: input validation, FormData, state updates                                                    |
+| 14/6/2026 | Implemented form interception and validation foundations.                                 | `feat`: preventDefault, FormData, Regex validation                                                   |
+| 12/6/2026 | Structured the Notes App UI and persistence layer.                                        | `feat`: base UI, live validation, localStorage                                                       |
+| 11/6/2026 | Set up Notes App selectors and workspace.                                                 | `feat`: base selectors and project setup                                                             |
+| 10/6/2026 | Planned the Notes App architecture and milestones.                                        | `docs`: architecture and data-driven roadmap                                                         |
+| 9/6/2026  | Reworked Exercise 7 with state and localStorage concepts.                                 | `feat`: data-driven exercise implementation                                                          |
+| 8/6/2026  | Continued DOM practice exercises.                                                         | `feat`: DOM exercises 4-7                                                                            |
+| 7/6/2026  | Built interactive DOM search and event handling exercises.                                | `feat`: querySelectorAll, forEach, includes, events                                                  |
+| 6/6/2026  | Reviewed Phase 1.4 and clarified advanced form logic.                                     | `refactor/docs`: Phase 1.4 review and form planning                                                  |
+| 5/6/2026  | Practiced HTML forms, validation, and DOM optimization.                                   | `feat/docs`: form handling and roadmap sync                                                          |
+| 4/6/2026  | Completed DOM practice basics and HTML setup.                                             | `feat`: DOM manipulation and events                                                                  |
+| 3/6/2026  | Practiced DOM, localStorage, events, and product filtering.                               | `feat`: persistence, theme toggler, filtering engine                                                 |
+| 2/6/2026  | Practiced array methods.                                                                  | `feat`: find and sort                                                                                |
+| 1/6/2026  | Reinforced ES6+, destructuring, array methods, and immutability.                          | `feat/docs`: exercises, study notes, progress update                                                 |
+| 31/5/2026 | Completed immutability practice and adjusted AI workflow.                                 | `feat`: Day 10 exercise and inline suggestion cleanup                                                |
+| 30/5/2026 | Mastered logic operators, resolved conflicts, and evaluated IDX.                          | `feat/docs`: logic exercise, remote workflow notes                                                   |
+| 29/5/2026 | Reviewed logic and planned calculatePrice re-implementation.                              | `docs`: logic review and implementation plan                                                         |
+| 28/5/2026 | Covered truthy/falsy logic, memory management, and Phase 1.1 setup.                       | `feat/docs`: logic practice, references, variables setup                                             |
+| 27/5/2026 | Finished Phase 0 milestones and README standards.                                         | `feat/docs`: Phase 0 completion, license, workflow                                                   |
+| 26/5/2026 | Practiced Git branching, merging, PR workflow, and sync.                                  | `feat/docs`: branches, merge, CONTRIBUTING, remote sync                                              |
+| 25/5/2026 | Started Git/GitHub workflow and formalized startup protocol.                              | `feat/docs`: repository init, commits, remote setup                                                  |
+| 24/5/2026 | Completed environment cleanup, terminal practice, and curriculum audit.                   | `feat/fix/docs`: setup, PowerShell, immutable protocol                                               |
+| 23/5/2026 | Explored Vite, React entry points, SPA architecture, and dev server.                      | `setup/docs`: first React project workflow                                                           |
+| 22/5/2026 | Planned the learning curriculum and AI mentoring setup.                                   | `docs`: curriculum planning                                                                          |
 
 > **Note:** This table is updated daily to reflect my consistency and growth.
 

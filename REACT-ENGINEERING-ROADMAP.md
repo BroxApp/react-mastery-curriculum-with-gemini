@@ -201,9 +201,9 @@ The focus is:
 ### Topics
 
 - [x] callbacks
-- [ ] promises
-- [ ] async/await
-- [ ] fetch API
+- [x] promises
+- [x] async/await
+- [x] fetch API
 
 ### 📌 Mini Project
 
