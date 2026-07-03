@@ -1,0 +1,71 @@
+/* Variables for clean code */
+:root {
+    --primary-color: #3498db;
+    --dark-color: #2c3e50;
+    --light-color: #ecf0f1;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar: Flexbox */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: var(--dark-color);
+    color: var(--light-color);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+/* Features: Responsive (Initial state) */
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2rem;
+}
+
+@media (min-width: 768px){
+    .features{
+        flex-direction: row;
+    }
+}
+
+.card {
+    background: #ddd;
+    padding: 2rem;
+    flex: 1 1 200px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* برای Hero Section */
+.hero {
+    display: grid; 
+    place-items: center;
+    min-height: 50ch;
+    background: linear-gradient(135deg, #3498db, #2c3e50);
+    color: white;
+    text-align: center;
+    animation: fadeInUp 1.5s ease-out;
+}
+
+/* تعریف مسیر انیمیشن */
+@keyframes fadeInUp {
+    from {opacity: 0; transform: translateY(30px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
