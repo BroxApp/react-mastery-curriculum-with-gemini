@@ -213,11 +213,11 @@ The focus is:
 
 ### Topics
 
-- [ ] Flexbox
-- [ ] CSS Grid
-- [ ] Responsive Design
-- [ ] Media Queries
-- [ ] Animations
+- [X] Flexbox
+- [X] CSS Grid
+- [X] Responsive Design
+- [X] Media Queries
+- [X] Animations
 
 ### 📌 Mini Project
 
