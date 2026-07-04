@@ -213,11 +213,11 @@ The focus is:
 
 ### Topics
 
-- [X] Flexbox
-- [X] CSS Grid
-- [X] Responsive Design
-- [X] Media Queries
-- [X] Animations
+- [x] Flexbox
+- [x] CSS Grid
+- [x] Responsive Design
+- [x] Media Queries
+- [x] Animations
 
 ### 📌 Mini Project
 
@@ -233,10 +233,10 @@ The focus is:
 
 ### Topics
 
-- [ ] JSX
-- [ ] components
-- [ ] props
-- [ ] component tree
+- [X] JSX
+- [X] components
+- [X] props
+- [X] component tree
 
 ### 📌 Mini Project
 
