@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* باعث می‌شود بادی کل ارتفاع صفحه را بگیرد */
+  background-color: #f5f5f5;
+}
+
+.likeBtn, .likeCount {
+  text-align: center;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: sandybrown;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: sans-serif;
+}
