@@ -233,10 +233,10 @@ The focus is:
 
 ### Topics
 
-- [X] JSX
-- [X] components
-- [X] props
-- [X] component tree
+- [x] JSX
+- [x] components
+- [x] props
+- [x] component tree
 
 ### 📌 Mini Project
 
