@@ -246,9 +246,9 @@ The focus is:
 
 ### Topics
 
-- [ ] useState
-- [ ] events
-- [ ] controlled inputs
+- [x] useState
+- [x] events
+- [x] controlled inputs
 
 ### 📌 Mini Project
 
