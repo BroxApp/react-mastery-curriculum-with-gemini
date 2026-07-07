@@ -27,6 +27,7 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 | Date      | Task / Project                                                                            | Commit Focus                                                                                       |
 | :-------- | :---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------- |
+ | 7/7/2026 | Study: Phase 2.4 - Side Effects & APIs (useEffect) | docs: complete theory for useEffect, dependency arrays, and side effects management |
  | 7/7/2026 | Completed: Phase 2.3 - Dynamic Rendering (Task Manager) | feat: implement list rendering with .map(), keys, and conditional status markers |
 | 6/7/2026 | Study: Phase 2.3 - Dynamic Rendering | docs: complete theory for list rendering, conditional logic, and React keys |
 | 5/7/2026  | Completed: Phase 2.2 - State Management (useState)                                        | feat: implement interactive like counter with useState and component re-rendering logic            |

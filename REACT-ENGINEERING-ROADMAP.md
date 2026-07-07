@@ -258,9 +258,9 @@ The focus is:
 
 ### Topics
 
-- [ ] rendering lists
-- [ ] conditional rendering
-- [ ] keys
+- [X] rendering lists
+- [X] conditional rendering
+- [X] keys
 
 ### 📌 Mini Project
 
