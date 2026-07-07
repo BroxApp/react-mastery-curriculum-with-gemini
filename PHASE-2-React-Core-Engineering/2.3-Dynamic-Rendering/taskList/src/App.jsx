@@ -12,8 +12,18 @@ const tasks = [
 function App() {
   return (
     <>
+    <h2>Task Manager</h2>
+    <ul>
+    {tasks.map((task)=>{
+        return(
+          <li key={task.id}>{task.title}
+          {(task.completed && '✅')}</li>
+        )
+      })
+    }
+    </ul>
     </>
   )
 }
 
-export default App
+export default App;
