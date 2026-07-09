@@ -270,9 +270,9 @@ The focus is:
 
 ### Topics
 
-- [ ] useEffect
-- [ ] dependency array
-- [ ] API requests
+- [X] useEffect
+- [X] dependency array
+- [X] API requests
 
 ### 📌 Mini Project
 

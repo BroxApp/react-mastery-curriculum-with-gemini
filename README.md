@@ -19,8 +19,7 @@ To become a professional Frontend Engineer capable of building scalable applicat
 - **Date:** 9-7-2026
 - **Daily Streak:** 🔥 40 Days
 - **Overall Progress:** 50%
-- **Next Step:** 2.4 Side Effects & APIs Practice
-
+- **Next Step:** mini project: Weather Dashboard
 ---
 
 ## 📅 Daily Progress Log

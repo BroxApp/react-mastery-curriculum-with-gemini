@@ -23,7 +23,7 @@ function DataFetch (){
        } 
        getData(); 
     },[])
-return (
+    return (
     <>
     <h3>Data Fetcher Pro 2</h3>
     <div>{
@@ -35,6 +35,6 @@ return (
         </div>
     }</div>
     </>
-)
+    )
 }
 export default DataFetch;
