@@ -14,19 +14,20 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 ## 📊 Current Status
 
-- **Current Phase:** PHASE 2 — React Core Engineering / 2.4 Side Effects & APIs
+- **Current Phase:** PHASE 2 — React Core Engineering / mini project: Weather Dashboard
 - **Day:** Wednesday
-- **Date:** 9-7-2026
-- **Daily Streak:** 🔥 40 Days
+- **Date:** 10-7-2026
+- **Daily Streak:** 🔥 41 Days
 - **Overall Progress:** 50%
-- **Next Step:** mini project: Weather Dashboard
+- **Next Step:** 2.5 Forms in React
+
 ---
 
 ## 📅 Daily Progress Log
 
 | Date      | Task / Project                                                                            | Commit Focus                                                                                       |
 | :-------- | :---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------- |
-| 9/7/2026 | Completed: Phase 2.4 - Side Effects & APIs (DataFetcher Pro) | feat: implement data fetching with useEffect, useState, and loading state management |
+| 9/7/2026  | Completed: Phase 2.4 - Side Effects & APIs (DataFetcher Pro)                              | feat: implement data fetching with useEffect, useState, and loading state management               |
 | 7/7/2026  | Study: Phase 2.4 - Side Effects & APIs (useEffect)                                        | docs: complete theory for useEffect, dependency arrays, and side effects management                |
 | 7/7/2026  | Completed: Phase 2.3 - Dynamic Rendering (Task Manager)                                   | feat: implement list rendering with .map(), keys, and conditional status markers                   |
 | 6/7/2026  | Study: Phase 2.3 - Dynamic Rendering                                                      | docs: complete theory for list rendering, conditional logic, and React keys                        |
