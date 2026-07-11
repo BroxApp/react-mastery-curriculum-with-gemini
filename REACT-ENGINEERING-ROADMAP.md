@@ -258,9 +258,9 @@ The focus is:
 
 ### Topics
 
-- [X] rendering lists
-- [X] conditional rendering
-- [X] keys
+- [x] rendering lists
+- [x] conditional rendering
+- [x] keys
 
 ### 📌 Mini Project
 
@@ -270,9 +270,9 @@ The focus is:
 
 ### Topics
 
-- [X] useEffect
-- [X] dependency array
-- [X] API requests
+- [x] useEffect
+- [x] dependency array
+- [x] API requests
 
 ### 📌 Mini Project
 

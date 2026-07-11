@@ -8,6 +8,29 @@ function App() {
   const [weather, setWeather] = useState (null);
   const [loading, setIsLoading] = useState (true);
   const [error, setError] = useState (null);
+  const [searchQuery, setSearchQuery] = useState ("");
+
+  async function handleSearch () {
+    try{
+      if(searchQuery.trim() === ""){
+      setError("Please insert a city name!");
+      return;
+      }
+    setIsLoading(true);
+    setError(null);
+    const url3 = `https://api.openweathermap.org/data/2.5/weather?q=${searchQuery}&appid=${APIKeyName}&units=metric`;
+    const response = await fetch (url3);
+    if (!response.ok){throw new Error ("Net Work Error!")}
+    const data = await response.json();
+    setWeather(data);
+    setLocation({city: data.name});
+    }catch(error){
+      setError(error.message);
+    }finally{
+      setIsLoading(false);
+      setSearchQuery("");
+    }
+  }
 
   useEffect (()=>{
     async function getData (){
@@ -40,8 +63,11 @@ function App() {
     <>
       <h2>Weather Dashboard</h2>
       <div className="search">
-        <input type="text" />
-        <button className="searchBtn">Search</button>
+        <input className='searchInput' type="text" value={searchQuery} onChange={(e)=>{
+          const value = e.target.value;
+          setSearchQuery (value);
+        }} />
+        <button className="searchBtn" onClick={handleSearch} >Search</button>
       </div>
       <div className="weatherData">
         {(loading)?

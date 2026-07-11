@@ -14,12 +14,12 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 ## 📊 Current Status
 
-- **Current Phase:** PHASE 2 — React Core Engineering / mini project: Weather Dashboard
-- **Day:** Wednesday
+- **Current Phase:** PHASE 2 — React Core Engineering / 2.5 Forms in React / form handling , validation , error handling
+- **Day:** Friday
 - **Date:** 10-7-2026
-- **Daily Streak:** 🔥 41 Days
-- **Overall Progress:** 50%
-- **Next Step:** 2.5 Forms in React
+- **Daily Streak:** 🔥 42 Days
+- **Overall Progress:** 70%
+- **Next Step:** mini project: Contact Form Pro
 
 ---
 
@@ -27,6 +27,8 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 | Date      | Task / Project                                                                            | Commit Focus                                                                                       |
 | :-------- | :---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------- |
+| 10/7/2026 | Study: Phase 2.5 - Forms in React (Theory)                                                | docs: complete theory for form handling, validation, and error handling in React                    |
+| 10/7/2026 | Completed: Phase 2.4 - Side Effects & APIs (Mini project)                                 | feat: fetch and display current weather based on user location                                     |
 | 9/7/2026  | Completed: Phase 2.4 - Side Effects & APIs (DataFetcher Pro)                              | feat: implement data fetching with useEffect, useState, and loading state management               |
 | 7/7/2026  | Study: Phase 2.4 - Side Effects & APIs (useEffect)                                        | docs: complete theory for useEffect, dependency arrays, and side effects management                |
 | 7/7/2026  | Completed: Phase 2.3 - Dynamic Rendering (Task Manager)                                   | feat: implement list rendering with .map(), keys, and conditional status markers                   |
