@@ -1,21 +1,105 @@
-#root{
+/* ۱. استایل کل صفحه و بک‌گراند لوکس */
+#root {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%); /* گرادینت تیره و عمیق */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f8fafc; /* رنگ متن سفید شیری ملایم */
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.search
-{
+/* ۲. عنوان اصلی داشبورد */
+h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    background: linear-gradient(to right, #38bdf8, #818cf8); /* متن گرادینت درخشان */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ۳. باکس اصلی سرچ و بخش نمایش اطلاعات (افکت شیشه‌ای لوکس) */
+.search, .weatherData {
+    background: rgba(255, 255, 255, 0.03); /* پس‌زمینه نیمه شفاف */
+    backdrop-filter: blur(16px); /* افکت مات شدن پشت شیشه */
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.08); /* لبه‌های شیشه‌ای ملایم */
+    border-radius: 16px;
+    padding: 6px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); /* سایه نرم و عمیق */
     display: flex;
+    width: 100%;
+    max-width: 400px; /* محدود کردن عرض برای شیک‌تر شدن */
+    box-sizing: border-box;
 }
 
-.weatherData{
-    margin: 10px;
+/* ۴. استایل اینپوتِ مدرن */
+.searchInput {
+    flex: 1;
+    background: transparent; /* حذف پس‌زمینه پیش‌فرض */
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    color: #ffffff;
+    font-size: 1rem;
 }
 
-.searchInput{
-    margin-right: 3px;
+.searchInput::placeholder {
+    color: #64748b; /* رنگ متن راهنما */
+}
+
+/* ۵. دکمه سرچ نئون و جذاب */
+.searchBtn {
+    background: linear-gradient(135deg, #38bdf8 0%, #4f46e5 100%);
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease; /* انیمیشن نرم برای هاور */
+    box-shadow: 0 4px 12px rgba(56, 189, 248, 0.2);
+}
+
+.searchBtn:hover {
+    transform: translateY(-2px); /* افکت کمی بالا آمدن دکمه در هاور */
+    box-shadow: 0 6px 20px rgba(56, 189, 248, 0.4); /* درخشش بیشتر موقع هاور */
+}
+
+.searchBtn:active {
+    transform: translateY(0);
+}
+
+/* ۶. باکس نمایش اطلاعات آب‌وهوا */
+.weatherData {
+    margin-top: 20px;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+/* استایل متن نام شهر */
+.weatherData p:first-child {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #94a3b8;
+    margin: 0;
+}
+
+/* استایل عدد دما (بزرگ و چشم‌نواز) */
+.weatherData p:last-child {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 10px 0 0 0;
+    color: #ffffff;
+    text-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
 }
