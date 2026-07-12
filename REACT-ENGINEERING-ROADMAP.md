@@ -282,9 +282,9 @@ The focus is:
 
 ### Topics
 
-- [ ] form handling
-- [ ] validation
-- [ ] error handling
+- [x] form handling
+- [x] validation
+- [x] error handling
 
 ### 📌 Mini Project
 
