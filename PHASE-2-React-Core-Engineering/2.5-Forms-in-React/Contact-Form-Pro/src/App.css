@@ -1,15 +1,174 @@
-.container{
+/* ۱. وارد کردن فونت فوق‌العاده زیبای وزیرمتن از گوگل فونت */
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;900&display=swap');
+
+/* تنظیم بدنه برای فیت شدن دقیق در یک ویوپورت بدون اسکرول */
+body {
+    background: radial-gradient(circle at top right, #1e1e24 0%, #0f0f12 100%);
+    color: #e2e8f0;
+    font-family: 'Vazirmatn', sans-serif; /* اعمال فونت وزیرمتن */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* فیت شدن دقیق در ارتفاع صفحه */
+    overflow: hidden; /* جلوگیری از اسکرول کل صفحه */
+}
+
+/* کانتینر اصلی فرم (کمی فشرده‌تر برای جا شدن در یک صفحه) */
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 95vw;
-    height: 95vh;
-    border: 2px solid #ffa500;
-    border-radius: 3px;
-}
-.formCountainer{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+    justify-content: center;
+    width: 420px;
+    max-width:95vw;
+    padding: 22px 28px; /* کاهش پدینگ برای صرفه‌جویی در ارتفاع */
+    background: rgba(30, 30, 38, 0.6);
+    border: 1px solid rgba(255, 165, 0, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
 }
 
+.container:hover {
+    border-color: rgba(255, 165, 0, 0.4);
+    box-shadow: 0 12px 40px 0 rgba(255, 165, 0, 0.15);
+}
+
+/* عنوان فرم */
+h2 {
+    color: #ffa500;
+    font-size: 1.5rem; /* کمی کوچک‌تر */
+    margin-top: 0;
+    margin-bottom: 18px; /* کاهش فاصله */
+    font-weight: 700;
+    text-shadow: 0 2px 10px rgba(255, 165, 0, 0.2);
+}
+
+/* کانتینر دربرگیرنده کل فرم */
+.formCountainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 12px; /* کاهش فاصله بین المان‌ها برای فیت شدن در ارتفاع */
+}
+
+/* بخش‌های ورودی (Divها) */
+.userNameCon, .emailCon, .subjectCon, .messageCon {
+    display: flex;
+    flex-direction: column;
+    gap: 4px; /* کاهش فاصله برچسب تا کادر */
+    width: 100%;
+}
+
+/* برچسب‌ها (Labels) */
+label {
+    font-size: 0.8rem;
+    color: #94a3b8;
+    font-weight: 500;
+}
+
+/* استایل مشترک ورودی‌ها، تکست‌آریا و سلکت */
+input, textarea, select, button {
+    font-family: 'Vazirmatn', sans-serif; /* اعمال فونت روی تمام فیلدها */
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px 12px; /* پدینگ بهینه‌تر */
+    background: rgba(15, 15, 20, 0.8);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    border-radius: 8px;
+    color: #f1f5f9;
+    font-size: 0.9rem;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.25s ease;
+}
+
+/* راست‌چین کردن متن‌های فارسی داخل اینپوت‌ها */
+input, textarea {
+    text-align: right;
+    direction: rtl;
+}
+
+/* افکت فوکوس */
+input:focus, textarea:focus, select:focus {
+    border-color: #ffa500;
+    box-shadow: 0 0 0 3px rgba(255, 165, 0, 0.15);
+    background: rgba(20, 20, 28, 0.9);
+}
+
+/* تنظیمات اختصاصی textarea */
+textarea {
+    resize: none; /* غیرفعال کردن تغییر اندازه دستی برای حفظ ساختار صفحه */
+    height: 85px; /* ارتفاع ثابت و بهینه */
+}
+
+/* شخصی‌سازی تگ select */
+select {
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='%23ffa500' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position: left 10px center; /* انتقال آیکون به چپ به دلیل راست‌چین بودن */
+    padding-left: 35px;
+    direction: rtl;
+    text-align: right;
+}
+
+/* پیام‌های خطا با فونت جدید و انیمیشن */
+.error-msg {
+    color: #ff4a4a;
+    font-size: 0.75rem;
+    margin-top: 2px;
+    direction: rtl;
+    text-align: right;
+    animation: fadeIn 0.25s ease-in-out;
+}
+
+/* دکمه ارسال و ردیف پایینی */
+.submitCon {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 5px;
+}
+
+.submitBtn {
+    background: linear-gradient(135deg, #ffa500 0%, #cc8400 100%);
+    color: #0f0f12;
+    border: none;
+    padding: 11px; /* پدینگ بهینه */
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 15px rgba(255, 165, 0, 0.2);
+}
+
+.submitBtn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(255, 165, 0, 0.35);
+    filter: brightness(1.1);
+}
+
+.submitBtn:active {
+    transform: translateY(1px);
+}
+
+/* انیمیشن پدیدار شدن خطاها */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-3px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
