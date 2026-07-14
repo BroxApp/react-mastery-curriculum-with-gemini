@@ -294,9 +294,9 @@ The focus is:
 
 ### Topics
 
-- [ ] routes
-- [ ] navigation
-- [ ] dynamic routes
+- [X] routes
+- [X] navigation
+- [X] dynamic routes
 
 ### 📌 Mini Project
 
