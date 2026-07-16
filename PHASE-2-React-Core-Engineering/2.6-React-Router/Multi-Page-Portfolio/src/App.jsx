@@ -8,7 +8,6 @@ import ProjectDetail from './pages/ProjectDetail'
 import './App.css'
 
 function App() {
-  
   return (
     <>
     <Navbar />
