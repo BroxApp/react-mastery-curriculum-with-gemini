@@ -1,0 +1,61 @@
+
+
+
+.container,
+.topBarContainer,
+.sidebar{
+    display: flex;
+    border: 1.5px solid orange;
+    margin:1.5px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 1.5px;
+}
+
+.btn-primary {
+    background-color: blue;
+    color: white;
+}
+.btn-secondary{
+    background-color: rgb(118, 118, 120);
+    color: white;   
+}
+.btn-danger {
+    background-color: red;
+    color: white;
+}
+
+.card{
+    height: 100px;
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+    border: 1.5px solid burlywood;
+}
+
+.card-success{
+    background-color: lightgreen;
+}
+.card-info{
+    background-color: lightskyblue;
+}
+.card-warning{
+    background-color: lightsalmon;
+}
+
+.card-container{
+    display: flex;
+}
+.statwidget-container{
+    display: flex;
+}
+.statwidget{
+    border: 1px solid orange;
+    box-shadow: 1px 1px 1px rgb(219, 219, 3);
+    padding: 5px;
+    margin: 5px;
+}
