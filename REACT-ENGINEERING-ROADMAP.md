@@ -306,9 +306,9 @@ The focus is:
 
 ### Topics
 
-- [ ] reusable components
-- [ ] folder structure
-- [ ] clean architecture
+- [X] reusable components
+- [X] folder structure
+- [X] clean architecture
 
 ### 📌 Mini Project
 
