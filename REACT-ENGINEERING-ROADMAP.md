@@ -318,9 +318,9 @@ The focus is:
 
 ### Topics
 
-- [ ] CSS Modules
-- [ ] Tailwind CSS
-- [ ] responsive UI systems
+- [X] CSS Modules
+- [X] Tailwind CSS
+- [X] responsive UI systems
 
 ### 📌 Mini Project
 
