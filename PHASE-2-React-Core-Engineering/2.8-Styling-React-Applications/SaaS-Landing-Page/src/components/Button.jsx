@@ -1,6 +1,5 @@
 
 
-
 function Button (props){
     const baseStyle = "px-6 py-3 rounded-lg font-semibold";
     const primaryStyle = "bg-orange-500 hover:bg-orange-600 text-white shadow-lg";
