@@ -1,4 +1,4 @@
-import React from "react";
+
 
 import { Zap, ShieldCheck, BarChart3, Users } from "lucide-react";
 
