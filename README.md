@@ -14,69 +14,71 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 ## 📊 Current Status
 
-- **Current Phase:** Mini Project phase 2.8 SaaS Landing Page UI
-- **Day:** tuseday- **Date:** 27-7-2026
-- **Daily Streak:** 🔥 58 Days
-- **Overall Progress:** 100%
-- **Next Step:** PHASE 3 — Professional Frontend Engineering
+- **Current Phase:** PHASE 3 — Professional Frontend Engineering/3.1 Advanced State Management
+- **Day:** Thursday
+- **Date:** 7-8-2026
+- **Daily Streak:** 🔥 69 Days
+- **Overall Progress:** 12%
+- **Next Step:** 3.2 Custom Hooks
 
 ---
 
 ## 📅 Daily Progress Log
 
-| Date      | Task / Project | Commit Focus                                                                                       |
-| :-------- | :---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------- |
-| 27/7/2026 | Mini Project: Phase 2.8 - Navbar & Hero Section | feat: setup packages, build responsive navbar and hero section |
-| 22/7/2026 | Study: Phase 2.8 - Styling (Responsive UI Systems Masterclass)                            | docs: complete theory on mobile-first design, breakpoints, and responsive patterns                 |
-| 21/7/2026 | Study & Practice: Phase 2.8 - Styling (CSS Modules & Tailwind CSS basics)                 | feat: implement ProfileCard using Tailwind CSS and component composition                           |
-| 20/7/2026 | Completed: Mini Project - Dashboard Layout System (Phase 2.7)                             | feat: implement layout composition, reusable atomic components, and clean architecture             |
-| 20/7/2026 | Started: Mini Project - Dashboard Layout System (Phase 2.7)                               | feat: setup project structure, layout architecture, and folder system based on atomic design       |
-| 16/7/2026 | Completed: Mini Project - Multi-Page-Portfolio (React Router)                             | feat: implement SPA routing, dynamic route parameters, and 404 handling                            |
-| 14/7/2026 | Completed: Mini Project - Contact Form Pro                                                | feat: implement full form validation, error handling, and touched-based UX feedback                |
-| 13/7/2026 | Started: Contact Form Pro (Phase 2.5)                                                     | feat: implement controlled form inputs, blur handlers, and state structure for validation          |
-| 10/7/2026 | Study: Phase 2.5 - Forms in React (Theory)                                                | docs: complete theory for form handling, validation, and error handling in React                   |
-| 10/7/2026 | Completed: Phase 2.4 - Side Effects & APIs (Mini project)                                 | feat: fetch and display current weather based on user location                                     |
-| 9/7/2026  | Completed: Phase 2.4 - Side Effects & APIs (DataFetcher Pro)                              | feat: implement data fetching with useEffect, useState, and loading state management               |
-| 7/7/2026  | Study: Phase 2.4 - Side Effects & APIs (useEffect)                                        | docs: complete theory for useEffect, dependency arrays, and side effects management                |
-| 7/7/2026  | Completed: Phase 2.3 - Dynamic Rendering (Task Manager)                                   | feat: implement list rendering with .map(), keys, and conditional status markers                   |
-| 6/7/2026  | Study: Phase 2.3 - Dynamic Rendering                                                      | docs: complete theory for list rendering, conditional logic, and React keys                        |
-| 5/7/2026  | Completed: Phase 2.2 - State Management (useState)                                        | feat: implement interactive like counter with useState and component re-rendering logic            |
-| 5/7/2026  | Study: Phase 2.2 - State Management (useState)                                            | docs: complete React State Management (useState) theoretical foundations                           |
-| 4/7/2026  | Completed: Phase 2.1 - React Fundamentals (Components & Props)                            | feat: implement reusable ProfileCard components using props and component tree structure           |
-| 3/7/2026  | Study: Phase 2.1 Theoretical Foundations                                                  | docs: complete React fundamental concepts theory (JSX, Components, Props)                          |
-| 3/7/2026  | Completed: Phase 1.7 - Modern CSS (Grid, Flexbox, Responsive & Animations)                | feat: finalize modern landing page with responsive grid/flexbox and hover animations               |
-| 2/7/2026  | Completed: Phase 1.6 - Asynchronous JavaScript (Callbacks, Promises, Async/Await & Fetch) | feat: finalize async JS mastery with promise-based logic, error handling, and real API integration |
-| 2/7/2026  | Completed: Mini Project - Random User Explorer                                            | feat: finalize interactive dashboard with fetch API and dynamic DOM rendering                      |
-| 1/7/2026  | Completed: Phase 1.6 - Asynchronous JavaScript (Async/Await)                              | feat: implement payment logic using async/await and try/catch error handling                       |
-| 1/7/2026  | Completed: Phase 1.6 - Asynchronous JavaScript (Promises Practice)                        | feat: implement wallet balance check system using Promises and async flow handling                 |
-| 21/6/2026 | Completed Phase 1.6 Promises practice.                                                    | feat: Promise-based user fetching and error handling                                               |
-| 20/6/2026 | Completed Phase 1.6 callbacks practice.                                                   | feat: async callbacks and callback chaining                                                        |
-| 19/6/2026 | Advanced Notes App dynamic UI, persistence, and state sync.                               | feat: render logic, conditional UI, and refresh bugfix                                             |
-| 16/6/2026 | Built the Notes App DOM rendering engine.                                                 | feat: renderNotes with dynamic DOM creation                                                        |
-| 15/6/2026 | Added form data extraction, validation, and state mutation.                               | feat: input validation, FormData, state updates                                                    |
-| 14/6/2026 | Implemented form interception and validation foundations.                                 | feat: preventDefault, FormData, Regex validation                                                   |
-| 12/6/2026 | Structured the Notes App UI and persistence layer.                                        | feat: base UI, live validation, localStorage                                                       |
-| 11/6/2026 | Set up Notes App selectors and workspace.                                                 | feat: base selectors and project setup                                                             |
-| 10/6/2026 | Planned the Notes App architecture and milestones.                                        | docs: architecture and data-driven roadmap                                                         |
-| 9/6/2026  | Reworked Exercise 7 with state and localStorage concepts.                                 | feat: data-driven exercise implementation                                                          |
-| 8/6/2026  | Continued DOM practice exercises.                                                         | feat: DOM exercises 4-7                                                                            |
-| 7/6/2026  | Built interactive DOM search and event handling exercises.                                | feat: querySelectorAll, forEach, includes, events                                                  |
-| 6/6/2026  | Reviewed Phase 1.4 and clarified advanced form logic.                                     | refactor/docs: Phase 1.4 review and form planning                                                  |
-| 5/6/2026  | Practiced HTML forms, validation, and DOM optimization.                                   | feat/docs: form handling and roadmap sync                                                          |
-| 4/6/2026  | Completed DOM practice basics and HTML setup.                                             | feat: DOM manipulation and events                                                                  |
-| 3/6/2026  | Practiced DOM, localStorage, events, and product filtering.                               | feat: persistence, theme toggler, filtering engine                                                 |
-| 2/6/2026  | Practiced array methods.                                                                  | feat: find and sort                                                                                |
-| 1/6/2026  | Reinforced ES6+, destructuring, array methods, and immutability.                          | feat/docs: exercises, study notes, progress update                                                 |
-| 31/5/2026 | Completed immutability practice and adjusted AI workflow.                                 | feat: Day 10 exercise and inline suggestion cleanup                                                |
-| 30/5/2026 | Mastered logic operators, resolved conflicts, and evaluated IDX.                          | feat/docs: logic exercise, remote workflow notes                                                   |
-| 29/5/2026 | Reviewed logic and planned calculatePrice re-implementation.                              | docs: logic review and implementation plan                                                         |
-| 28/5/2026 | Covered truthy/falsy logic, memory management, and Phase 1.1 setup.                       | feat/docs: logic practice, references, variables setup                                             |
-| 27/5/2026 | Finished Phase 0 milestones and README standards.                                         | feat/docs: Phase 0 completion, license, workflow                                                   |
-| 26/5/2026 | Practiced Git branching, merging, PR workflow, and sync.                                  | feat/docs: branches, merge, CONTRIBUTING, remote sync                                              |
-| 25/5/2026 | Started Git/GitHub workflow and formalized startup protocol.                              | feat/docs: repository init, commits, remote setup                                                  |
-| 24/5/2026 | Completed environment cleanup, terminal practice, and curriculum audit.                   | feat/fix/docs: setup, PowerShell, immutable protocol                                               |
-| 23/5/2026 | Explored Vite, React entry points, SPA architecture, and dev server.                      | setup/docs: first React project workflow                                                           |
-| 22/5/2026 | Planned the learning curriculum and AI mentoring setup.                                   | docs: curriculum planning                                                                          |
+| Date      | Task / Project                                                                            | Commit Focus                                                                                                     |
+| :-------- | :---------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- |
+| 6/8/2026  | Completed: Mini Project - SaaS Landing Page UI (Phase 2.8)                                | feat: complete SaaS Landing Page project with responsive UI components (Navbar, Hero, Features, Pricing, Footer) |
+| 27/7/2026 | Mini Project: Phase 2.8 - Navbar & Hero Section                                           | feat: setup packages, build responsive navbar and hero section                                                   |
+| 22/7/2026 | Study: Phase 2.8 - Styling (Responsive UI Systems Masterclass)                            | docs: complete theory on mobile-first design, breakpoints, and responsive patterns                               |
+| 21/7/2026 | Study & Practice: Phase 2.8 - Styling (CSS Modules & Tailwind CSS basics)                 | feat: implement ProfileCard using Tailwind CSS and component composition                                         |
+| 20/7/2026 | Completed: Mini Project - Dashboard Layout System (Phase 2.7)                             | feat: implement layout composition, reusable atomic components, and clean architecture                           |
+| 20/7/2026 | Started: Mini Project - Dashboard Layout System (Phase 2.7)                               | feat: setup project structure, layout architecture, and folder system based on atomic design                     |
+| 16/7/2026 | Completed: Mini Project - Multi-Page-Portfolio (React Router)                             | feat: implement SPA routing, dynamic route parameters, and 404 handling                                          |
+| 14/7/2026 | Completed: Mini Project - Contact Form Pro                                                | feat: implement full form validation, error handling, and touched-based UX feedback                              |
+| 13/7/2026 | Started: Contact Form Pro (Phase 2.5)                                                     | feat: implement controlled form inputs, blur handlers, and state structure for validation                        |
+| 10/7/2026 | Study: Phase 2.5 - Forms in React (Theory)                                                | docs: complete theory for form handling, validation, and error handling in React                                 |
+| 10/7/2026 | Completed: Phase 2.4 - Side Effects & APIs (Mini project)                                 | feat: fetch and display current weather based on user location                                                   |
+| 9/7/2026  | Completed: Phase 2.4 - Side Effects & APIs (DataFetcher Pro)                              | feat: implement data fetching with useEffect, useState, and loading state management                             |
+| 7/7/2026  | Study: Phase 2.4 - Side Effects & APIs (useEffect)                                        | docs: complete theory for useEffect, dependency arrays, and side effects management                              |
+| 7/7/2026  | Completed: Phase 2.3 - Dynamic Rendering (Task Manager)                                   | feat: implement list rendering with .map(), keys, and conditional status markers                                 |
+| 6/7/2026  | Study: Phase 2.3 - Dynamic Rendering                                                      | docs: complete theory for list rendering, conditional logic, and React keys                                      |
+| 5/7/2026  | Completed: Phase 2.2 - State Management (useState)                                        | feat: implement interactive like counter with useState and component re-rendering logic                          |
+| 5/7/2026  | Study: Phase 2.2 - State Management (useState)                                            | docs: complete React State Management (useState) theoretical foundations                                         |
+| 4/7/2026  | Completed: Phase 2.1 - React Fundamentals (Components & Props)                            | feat: implement reusable ProfileCard components using props and component tree structure                         |
+| 3/7/2026  | Study: Phase 2.1 Theoretical Foundations                                                  | docs: complete React fundamental concepts theory (JSX, Components, Props)                                        |
+| 3/7/2026  | Completed: Phase 1.7 - Modern CSS (Grid, Flexbox, Responsive & Animations)                | feat: finalize modern landing page with responsive grid/flexbox and hover animations                             |
+| 2/7/2026  | Completed: Phase 1.6 - Asynchronous JavaScript (Callbacks, Promises, Async/Await & Fetch) | feat: finalize async JS mastery with promise-based logic, error handling, and real API integration               |
+| 2/7/2026  | Completed: Mini Project - Random User Explorer                                            | feat: finalize interactive dashboard with fetch API and dynamic DOM rendering                                    |
+| 1/7/2026  | Completed: Phase 1.6 - Asynchronous JavaScript (Async/Await)                              | feat: implement payment logic using async/await and try/catch error handling                                     |
+| 1/7/2026  | Completed: Phase 1.6 - Asynchronous JavaScript (Promises Practice)                        | feat: implement wallet balance check system using Promises and async flow handling                               |
+| 21/6/2026 | Completed Phase 1.6 Promises practice.                                                    | feat: Promise-based user fetching and error handling                                                             |
+| 20/6/2026 | Completed Phase 1.6 callbacks practice.                                                   | feat: async callbacks and callback chaining                                                                      |
+| 19/6/2026 | Advanced Notes App dynamic UI, persistence, and state sync.                               | feat: render logic, conditional UI, and refresh bugfix                                                           |
+| 16/6/2026 | Built the Notes App DOM rendering engine.                                                 | feat: renderNotes with dynamic DOM creation                                                                      |
+| 15/6/2026 | Added form data extraction, validation, and state mutation.                               | feat: input validation, FormData, state updates                                                                  |
+| 14/6/2026 | Implemented form interception and validation foundations.                                 | feat: preventDefault, FormData, Regex validation                                                                 |
+| 12/6/2026 | Structured the Notes App UI and persistence layer.                                        | feat: base UI, live validation, localStorage                                                                     |
+| 11/6/2026 | Set up Notes App selectors and workspace.                                                 | feat: base selectors and project setup                                                                           |
+| 10/6/2026 | Planned the Notes App architecture and milestones.                                        | docs: architecture and data-driven roadmap                                                                       |
+| 9/6/2026  | Reworked Exercise 7 with state and localStorage concepts.                                 | feat: data-driven exercise implementation                                                                        |
+| 8/6/2026  | Continued DOM practice exercises.                                                         | feat: DOM exercises 4-7                                                                                          |
+| 7/6/2026  | Built interactive DOM search and event handling exercises.                                | feat: querySelectorAll, forEach, includes, events                                                                |
+| 6/6/2026  | Reviewed Phase 1.4 and clarified advanced form logic.                                     | refactor/docs: Phase 1.4 review and form planning                                                                |
+| 5/6/2026  | Practiced HTML forms, validation, and DOM optimization.                                   | feat/docs: form handling and roadmap sync                                                                        |
+| 4/6/2026  | Completed DOM practice basics and HTML setup.                                             | feat: DOM manipulation and events                                                                                |
+| 3/6/2026  | Practiced DOM, localStorage, events, and product filtering.                               | feat: persistence, theme toggler, filtering engine                                                               |
+| 2/6/2026  | Practiced array methods.                                                                  | feat: find and sort                                                                                              |
+| 1/6/2026  | Reinforced ES6+, destructuring, array methods, and immutability.                          | feat/docs: exercises, study notes, progress update                                                               |
+| 31/5/2026 | Completed immutability practice and adjusted AI workflow.                                 | feat: Day 10 exercise and inline suggestion cleanup                                                              |
+| 30/5/2026 | Mastered logic operators, resolved conflicts, and evaluated IDX.                          | feat/docs: logic exercise, remote workflow notes                                                                 |
+| 29/5/2026 | Reviewed logic and planned calculatePrice re-implementation.                              | docs: logic review and implementation plan                                                                       |
+| 28/5/2026 | Covered truthy/falsy logic, memory management, and Phase 1.1 setup.                       | feat/docs: logic practice, references, variables setup                                                           |
+| 27/5/2026 | Finished Phase 0 milestones and README standards.                                         | feat/docs: Phase 0 completion, license, workflow                                                                 |
+| 26/5/2026 | Practiced Git branching, merging, PR workflow, and sync.                                  | feat/docs: branches, merge, CONTRIBUTING, remote sync                                                            |
+| 25/5/2026 | Started Git/GitHub workflow and formalized startup protocol.                              | feat/docs: repository init, commits, remote setup                                                                |
+| 24/5/2026 | Completed environment cleanup, terminal practice, and curriculum audit.                   | feat/fix/docs: setup, PowerShell, immutable protocol                                                             |
+| 23/5/2026 | Explored Vite, React entry points, SPA architecture, and dev server.                      | setup/docs: first React project workflow                                                                         |
+| 22/5/2026 | Planned the learning curriculum and AI mentoring setup.                                   | docs: curriculum planning                                                                                        |
 
 > **Note:** This table is updated daily to reflect my consistency and growth.
 
