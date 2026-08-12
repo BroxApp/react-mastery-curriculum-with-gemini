@@ -93,6 +93,7 @@ export function CounterApp() {
 const [state, dispatch] = useReducer(reducer, initialState);
 
 return (
+
 <div>
 <h2>تعداد: {state.count}</h2>
 <button onClick={() => dispatch({ type: 'INCREMENT', payload: 5 })}>+۵</button>
@@ -149,6 +150,7 @@ const dispatch = useDispatch(); // برای فرستادن دستور
 const cartItems = useSelector((state) => state.cart.items); // برای خواندن استیت
 
 return (
+
 <div>
 <h3>{product.name}</h3>
 <button onClick={() => dispatch(addItem(product))}>
@@ -186,6 +188,7 @@ const addToCart = useCartStore((state) => state.addToCart);
 const clearCart = useCartStore((state) => state.clearCart);
 
 return (
+
 <div>
 <h2>سبد خرید ({cart.length})</h2>
 <button onClick={() => addToCart({ id: 1, name: 'لپ‌تاپ' })}>
