@@ -1,10 +1,9 @@
 import { AuthProvider } from "./AuthContext"
+import Navbar from "./Navbar"
 
 function App() {
 return(
-    <AuthProvider>
-        <Navbar></Navbar>
-    </AuthProvider>
+    <AuthProvider><Navbar/></AuthProvider>
 )
 
 }
