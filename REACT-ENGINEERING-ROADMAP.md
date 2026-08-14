@@ -306,9 +306,9 @@ The focus is:
 
 ### Topics
 
-- [X] reusable components
-- [X] folder structure
-- [X] clean architecture
+- [x] reusable components
+- [x] folder structure
+- [x] clean architecture
 
 ### 📌 Mini Project
 
@@ -318,9 +318,9 @@ The focus is:
 
 ### Topics
 
-- [X] CSS Modules
-- [X] Tailwind CSS
-- [X] responsive UI systems
+- [x] CSS Modules
+- [x] Tailwind CSS
+- [x] responsive UI systems
 
 ### 📌 Mini Project
 
@@ -336,7 +336,7 @@ The focus is:
 
 ### Topics
 
-- [ ] Context API
+- [x] Context API
 - [ ] useReducer
 - [ ] Redux Toolkit
 - [ ] Zustand
