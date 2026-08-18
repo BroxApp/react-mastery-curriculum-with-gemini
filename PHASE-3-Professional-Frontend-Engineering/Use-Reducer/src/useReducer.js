@@ -3,11 +3,11 @@
 function reducer (state, action){
     switch (action.type){
         case 'AddTodo':
-            return{};
+            return[...state, {id:Date.now(), text:action.payload, done:false}];
         case 'ToggleTodo':
-            return{};
+            return state.map(todo => todo.id===action.payload ? {...todo, done:!todo.done} : todo);
         case 'DeleteTodo':
-            return{};
+            return state.filter(todo => todo.id !== action.payload);
         default:
             return state;
     }

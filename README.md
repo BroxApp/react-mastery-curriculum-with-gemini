@@ -15,9 +15,9 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📊 Current Status
 
 - **Current Phase:** PHASE 3 — Professional Frontend Engineering/3.1 Advanced State Management/useReducer
-- **Day:** Friday
-- **Date:** 14-8-2026
-- **Daily Streak:** 🔥 76 Days
+- **Day:** Tuesday
+- **Date:** 18-8-2026
+- **Daily Streak:** 🔥 80 Days
 - **Overall Progress:** 12%
 - **Next Step:** Redux Toolkit
 
@@ -26,8 +26,9 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📅 Daily Progress Log
 
 | Date      | Task / Project                                                                            | Commit Focus                                                                                                           |
-| :-------- | :---------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| 13/8/2026 | Completed: Practice - React Context API Auth System                                       | Implemented AuthContext, AuthProvider, and custom useAuth hook with full login/logout toggle logic in Navbar component | feat: complete AuthContext exercise |
+| :-------- | :---------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| 18/8/2026 | Completed: Mini Project - TodoApp (useReducer)                                            | feat: complete                                                                                                         | Implemented todo list with add, toggle, delete actions using useReducer |
+| 13/8/2026 | Completed: Practice - React Context API Auth System                                       | Implemented AuthContext, AuthProvider, and custom useAuth hook with full login/logout toggle logic in Navbar component | feat: complete AuthContext exercise                                     |
 | 6/8/2026  | Completed: Mini Project - SaaS Landing Page UI (Phase 2.8)                                | feat: complete SaaS Landing Page project with responsive UI components (Navbar, Hero, Features, Pricing, Footer)       |
 | 27/7/2026 | Mini Project: Phase 2.8 - Navbar & Hero Section                                           | feat: setup packages, build responsive navbar and hero section                                                         |
 | 22/7/2026 | Study: Phase 2.8 - Styling (Responsive UI Systems Masterclass)                            | docs: complete theory on mobile-first design, breakpoints, and responsive patterns                                     |
