@@ -337,7 +337,7 @@ The focus is:
 ### Topics
 
 - [x] Context API
-- [ ] useReducer
+- [X] useReducer
 - [ ] Redux Toolkit
 - [ ] Zustand
 
