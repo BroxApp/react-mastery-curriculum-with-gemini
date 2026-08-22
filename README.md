@@ -14,12 +14,12 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 ## 📊 Current Status
 
-- **Current Phase:** PHASE 3 — Professional Frontend Engineering/3.1 Advanced State Management/Redux Toolkit
+- **Current Phase:** PHASE 3 — Professional Frontend Engineering/3.1 Advanced State Management/Zustand
 - **Day:** Thursday
-- **Date:** 20-8-2026
-- **Daily Streak:** 🔥 82 Days
+- **Date:** 22-8-2026
+- **Daily Streak:** 🔥 84 Days
 - **Overall Progress:** 12%
-- **Next Step:** Zustand
+- **Next Step:** Global Store Shop
 
 ---
 
@@ -27,7 +27,8 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 | Date      | Task / Project                                                                            | Commit Focus                                                                                                           |
 | :-------- | :---------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| 20/8/2026 | Completed: Practice - Redux Toolkit Notification System | feat: complete Notification Banner exercise with Redux Toolkit slice and store integration |
+| 22/8/2026 | Completed: Practice - Zustand Favorites Store (Part 1)                                    | feat: build Favorites Store with Zustand, add/remove favorite actions, and connect store to React                      |
+| 20/8/2026 | Completed: Practice - Redux Toolkit Notification System                                   | feat: complete Notification Banner exercise with Redux Toolkit slice and store integration                             |
 | 18/8/2026 | Completed: Mini Project - TodoApp (useReducer)                                            | feat: complete                                                                                                         | Implemented todo list with add, toggle, delete actions using useReducer |
 | 13/8/2026 | Completed: Practice - React Context API Auth System                                       | Implemented AuthContext, AuthProvider, and custom useAuth hook with full login/logout toggle logic in Navbar component | feat: complete AuthContext exercise                                     |
 | 6/8/2026  | Completed: Mini Project - SaaS Landing Page UI (Phase 2.8)                                | feat: complete SaaS Landing Page project with responsive UI components (Navbar, Hero, Features, Pricing, Footer)       |
