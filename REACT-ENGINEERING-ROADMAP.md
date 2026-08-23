@@ -339,7 +339,7 @@ The focus is:
 - [x] Context API
 - [X] useReducer
 - [X] Redux Toolkit
-- [ ] Zustand
+- [X] Zustand
 
 ### 📌 Mini Project
 
