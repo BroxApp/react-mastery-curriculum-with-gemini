@@ -1,7 +1,8 @@
+
 function ProductCard ({product}){
     return (
         <article>
-            <img src="product.image" alt="product.name" />
+            <img src={product.image} alt={product.name} className="w-full h-40 object-cover"/>
             <h2>{product.name}</h2>
             <p>{product.price}$</p>
             <button>افزودن به سبد خرید:</button>
