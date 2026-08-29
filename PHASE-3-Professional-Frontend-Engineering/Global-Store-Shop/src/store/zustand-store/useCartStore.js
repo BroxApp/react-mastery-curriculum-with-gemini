@@ -1,4 +1,4 @@
-import {create} from "sustand";
+import {create} from "zustand";
 
 //ایجاد هوک سبد خرید
 const useCartStore = create((set)=>({

@@ -1,11 +1,16 @@
+
+import Navbar from './components/Navebar'
 import ProductList from './components/ProductList'
 import './App.css'
 
 function App() {
 
   return (
- <ProductList/>
+  <>
+    <Navbar/>
+    <ProductList/>
+  </>
   )
 }
 
-export default App
+export default App;

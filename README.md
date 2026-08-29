@@ -15,9 +15,9 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📊 Current Status
 
 - **Current Phase:** PHASE 3 — Professional Frontend Engineering/3.1 Advanced State Management/Global Store Shop
-- **Day:** Thursday
-- **Date:** 27-8-2026
-- **Daily Streak:** 🔥 89 Days
+- **Day:** Saturday
+- **Date:** 29-8-2026
+- **Daily Streak:** 🔥 91 Days
 - **Overall Progress:** 12%
 - **Next Step:** Phase 3.2
 
@@ -27,6 +27,7 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 | Date      | Task / Project                                                                                               | Commit Focus                                                                                                           |
 | :-------- | :----------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| 29/8/2026 | Completed: CartModal Open/Close & Cart Quantity Management | feat: implement CartModal visibility control with local state and display total cart quantity in Navbar |
 | 27/8/2026 | Completed: Navbar & CartModal Integration with Zustand | feat: connect Navbar to Zustand cart store and create CartModal component for displaying cart items |
 | 26/8/2026 | Completed: Zustand State Management & UI Integration | feat: implement Cart and Favorites stores with Zustand and connect ProductCard UI to cart and favorites state |
 | 25/8/2026 | Completed: Navbar Component & Zustand Cart Store                                                             | feat: create Navbar component and implement Zustand cart store for cart state management and actions                   |
