@@ -1,6 +1,7 @@
 
 import Navbar from './components/Navebar'
 import ProductList from './components/ProductList'
+import NotificationToast from './components/NotificationToast'
 import './App.css'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   <>
     <Navbar/>
     <ProductList/>
+    <NotificationToast/>
   </>
   )
 }

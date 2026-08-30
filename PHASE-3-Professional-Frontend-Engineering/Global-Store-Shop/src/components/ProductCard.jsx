@@ -1,9 +1,38 @@
+
+import { useDispatch } from "react-redux";
+import {showNotification} from "../store/redux-store";
 import useCartStore from "../store/zustand-store/useCartStore";
 import useFavoritesStore from "../store/zustand-store/useFavoritesStore";
 
 function ProductCard ({product}){
+    const dispatch = useDispatch();
+
     const addToCart = useCartStore((state)=>state.addToCart);
     const toggleFavorite = useFavoritesStore((state)=>state.toggleFavorite);
+    
+
+    const handleAddToCart = () => {
+        addToCart(product);
+
+        dispatch(
+            showNotification({
+                message: "Product added to cart",
+                type: "success",
+            })
+        );
+    };
+
+    const handleToggleFavorite = () => {
+        toggleFavorite(product);
+
+        dispatch(
+            showNotification({
+                message: "Favorites updated",
+                type: "success",
+            })
+        );
+    };
+    
     return (
         <article>
             <img src={product.image} alt={product.name} className="w-full h-40 object-cover"/>

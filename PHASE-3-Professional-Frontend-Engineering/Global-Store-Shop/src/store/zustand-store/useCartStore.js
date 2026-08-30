@@ -27,11 +27,11 @@ const useCartStore = create((set)=>({
         };
     }),
     //تابع حذف محصول از سبد خرید
-    removeFromCart: (product)=>
+    removeFromCart: (productId)=>
         //تمام محصولاتی را نگه می‌دارد که آی دی آن‌ها با آی دی محصول مورد نظر متفاوت است
         set((state)=>({
             cart: state.cart.filter(
-                (item)=>item.id !== product
+                (item)=>item.id !== productId
             ),
         })),
     //برای افزایش تعداد یک محصول
