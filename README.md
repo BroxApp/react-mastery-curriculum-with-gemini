@@ -15,9 +15,9 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📊 Current Status
 
 - **Current Phase:** PHASE 3 — Professional Frontend Engineering/3.1 Advanced State Management/Global Store Shop
-- **Day:** Sunday
-- **Date:** 30-8-2026
-- **Daily Streak:** 🔥 92 Days
+- **Day:** Monday
+- **Date:** 31-8-2026
+- **Daily Streak:** 🔥 93 Days
 - **Overall Progress:** 12%
 - **Next Step:** Phase 3.2
 
@@ -27,6 +27,7 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 | Date      | Task / Project                                                                                               | Commit Focus                                                                                                                                                |
 | :-------- | :----------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| 31/8/2026 | Completed: Redux Notification System | feat: implement notification slice and store, connect Redux Provider and NotificationToast, and add auto-dismiss notifications for cart and favorites |
 | 30/8/2026 | Completed: Redux Notification System Setup & Integration                                                     | feat: create notification slice and Redux store, connect Redux Provider, add NotificationToast, and integrate notifications with Cart and Favorites actions |
 | 29/8/2026 | Completed: CartModal Open/Close & Cart Quantity Management                                                   | feat: implement CartModal visibility control with local state and display total cart quantity in Navbar                                                     |
 | 27/8/2026 | Completed: Navbar & CartModal Integration with Zustand                                                       | feat: connect Navbar to Zustand cart store and create CartModal component for displaying cart items                                                         |
