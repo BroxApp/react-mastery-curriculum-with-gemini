@@ -3,6 +3,7 @@ import { useState } from "react";
 import useCartStore from "../store/zustand-store/useCartStore";
 import useFavoritesStore from "../store/zustand-store/useFavoritesStore";
 import CartModal from "./CartModal";
+import {useAuth} from "../context/AuthContext";
 
 export default function Navbar() {
 
@@ -22,6 +23,8 @@ export default function Navbar() {
     const favorites = useFavoritesStore(
         (state) => state.favorites
     );
+
+    const {user, isLoggedIn, login, logout} =useAuth();
 
     return (
         <>
@@ -71,18 +74,34 @@ export default function Navbar() {
                         </span>
                     </div>
 
+                   {isLoggedIn ? (
+                    <>
+                    <span>
+                        Hello, {user.name}
+                    </span>
+                    <button onClick={logout} className="border px-3 py-1 rounded">
+                        Logout
+                    </button>
+                    </>
+                   ):(
+                    <button onClick={()=>login("User","Customer")} className="bg-blue-500 text-white px-3 py-1 rounded">
+                        Login
+                    </button>
+                   )}
                 </div>
-
             </nav>
 
+            {
+                isCartOpen && (
+                    <CartModal onClose={()=>setIsCartOpen(false)}/>
+                )
+            }
 
             {/* Cart Modal */}
             {isCartOpen && (
                 <CartModal
-                    onClose={() => setIsCartOpen(false)}
-                />
+                    onClose={() => setIsCartOpen(false)}/>
             )}
-
         </>
     );
 }

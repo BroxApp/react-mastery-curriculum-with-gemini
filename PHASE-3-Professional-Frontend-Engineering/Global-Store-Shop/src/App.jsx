@@ -1,4 +1,5 @@
 
+import CheckoutForm from './components/CheckoutForm'
 import Navbar from './components/Navebar'
 import ProductList from './components/ProductList'
 import NotificationToast from './components/NotificationToast'
@@ -11,6 +12,7 @@ function App() {
     <Navbar/>
     <ProductList/>
     <NotificationToast/>
+    <CheckoutForm/>
   </>
   )
 }
