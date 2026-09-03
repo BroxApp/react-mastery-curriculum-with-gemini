@@ -15,9 +15,9 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📊 Current Status
 
 - **Current Phase:** PHASE 3 — Professional Frontend Engineering/3.2 Custom Hooks
-- **Day:** Tuesday
-- **Date:** 1-9-2026
-- **Daily Streak:** 🔥 94 Days
+- **Day:** Tursday
+- **Date:** 3-9-2026
+- **Daily Streak:** 🔥 96 Days
 - **Overall Progress:** 14%
 - **Next Step:** Phase 3.2 (Theory & Custom Hook Architecture)
 
@@ -27,7 +27,8 @@ To become a professional Frontend Engineer capable of building scalable applicat
 
 | Date      | Task / Project                                                                                               | Commit Focus                                                                                                                                                |
 | :-------- | :----------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| 1/9/2026  | Study: Phase 3.2 - Custom Hooks (Theory & Architecture) | docs: complete theory and architectural principles of Custom Hooks in React |
+| 3/9/2026  | Custom Hooks Exercise 1 - Project Setup & Environment Configuration                                          | chore: initialize Vite React environment, install and verify Tailwind CSS v4 setup, restructure workspace directory for Phase 3.2                           |
+| 1/9/2026  | Study: Phase 3.2 - Custom Hooks (Theory & Architecture)                                                      | docs: complete theory and architectural principles of Custom Hooks in React                                                                                 |
 | 31/8/2026 | Completed: Checkout Form & Project Requirements                                                              | feat: complete CheckoutForm with useReducer, validation, 10% DISCOUNT10 discount, order total calculation, and finalize all core project requirements       |
 | 31/8/2026 | Completed: Redux Notification System                                                                         | feat: implement notification slice and store, connect Redux Provider and NotificationToast, and add auto-dismiss notifications for cart and favorites       |
 | 30/8/2026 | Completed: Redux Notification System Setup & Integration                                                     | feat: create notification slice and Redux store, connect Redux Provider, add NotificationToast, and integrate notifications with Cart and Favorites actions |
