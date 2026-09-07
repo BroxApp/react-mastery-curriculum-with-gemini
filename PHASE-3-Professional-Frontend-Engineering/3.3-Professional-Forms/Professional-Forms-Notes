@@ -1,0 +1,94 @@
+🎓 Phase 3.3 — Professional Forms (فرم‌های حرفه‌ای در ری‌اکت)
+❓ چرا مدیریت فرم در پروژه‌های بزرگ چالش‌برانگیز است؟
+در فازهای قبلی با فرم‌های کنترل‌شده (Controlled Components) با استفاده از useState آشنا شدی. اما در پروژه‌های سطح سازمانی (Enterprise) و واقعی:
+
+افت پرفورمنس (Unnecessary Re-renders): با هر کلید (Keystroke) که کاربر در یک اینپوت تایپ می‌کند، کل کامپوننت فرم ری‌رندر می‌شود. اگر فرمی ۲۰ اینپوت داشته باشد، پرفورمنس به شدت افت می‌کند.
+کد کثیف و حجیم (Boilerplate Code): برای هر اینپوت باید دستی value، onChange، خطایابی، استیت touched و اعتبارسنجی بنویسیم.
+اعتبارسنجی پیچیده (Complex Validation): نوشتن شرط‌های تو در تو با Regex برای ایمیل، پسورد، تطابق فیلدها و... نگهداری کد را کابوس می‌کند!
+🛠️ جعبه‌ابزار استاندارد مهندسی: React Hook Form + Zod
+صنعت فرانت‌اند برای حل این چالش‌ها به این ترکیب استاندارد رسیده است:
+
+React Hook Form (RHF):
+
+از معماری Uncontrolled Components با استفاده از refها بهره می‌برد.
+بدون ری‌رندر اضافه: تایپ کردن در یک فیلد، باعث ری‌رندر شدن کل فرم نمی‌شود!
+حجم بسیار کم، عملکرد به شدت سریع و API بسیار تمیز.
+Zod (Schema Validation):
+
+یک کتابخانه قدرتمند برای تعریف ساختار و قوانین داده‌ها (Schema-first).
+اعتبارسنجی را به طور کامل از ظاهر فرم جدا می‌کند.
+ارورها را به صورت تمیز و خوانا تولید و مستقیماً به فرم متصل می‌کند (با استفاده از @hookform/resolvers/zod).
+📐 دیاگرام معماری یک فرم حرفه‌ای
+
+Apply
+[ User Input ] ---> [ React Hook Form (Uncontrolled / Refs) ]
+                                |
+                                v
+                     [ Zod Schema Resolver ]
+                                |
+                +---------------+---------------+
+                |                               |
+          [ Valid Data ]                [ Schema Errors ]
+                |                               |
+        (onSubmit Handler)             (Display in UI)
+💻 مثال کُدی استاندارد (Syntax & Pattern)
+۱. تعریف قوانین با Zod (schema.js):
+
+Apply
+import { z } from 'zod';
+
+export const registerSchema = z.object({
+  username: z.string().min(3, 'نام کاربری باید حداقل ۳ کاراکتر باشد'),
+  email: z.string().email('فرمت ایمیل نامعتبر است'),
+  password: z.string().min(6, 'رمز عبور باید حداقل ۶ کاراکتر باشد'),
+  confirmPassword: z.string()
+}).refine((data) => data.password === data.confirmPassword, {
+  message: 'رمز عبور با تکرار آن مطابقت ندارد',
+  path: ['confirmPassword'], // مشخص کردن فیلدی که خطا برای آن ثبت می‌شود
+});
+۲. اتصال Zod به React Hook Form در کامپوننت:
+
+Apply
+import React from 'react';
+import { useForm } from 'react-hook-form';
+import { zodResolver } from '@hookform/resolvers/zod';
+import { registerSchema } from './schema';
+
+export function RegisterForm() {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors, isSubmitting }
+  } = useForm({
+    resolver: zodResolver(registerSchema),
+    mode: 'onTouched' // یا onChange / onBlur
+  });
+
+  const onSubmit = async (data) => {
+    console.log('فرم با موفقیت ارسال شد:', data);
+  };
+
+  return (
+    <form onSubmit={handleSubmit(onSubmit)}>
+      <div>
+        <label>نام کاربری:</label>
+        <input {...register('username')} />
+        {errors.username && <p className="text-red-500">{errors.username.message}</p>}
+      </div>
+
+      <div>
+        <label>ایمیل:</label>
+        <input {...register('email')} />
+        {errors.email && <p className="text-red-500">{errors.email.message}</p>}
+      </div>
+
+      <button type="submit" disabled={isSubmitting}>
+        {isSubmitting ? 'در حال ارسال...' : 'ثبت نام'}
+      </button>
+    </form>
+  );
+}
+🗺️ گام‌های یادگیری این فاز
+مرحله ۱ (تئوری و آشنایی): مفاهیم پایه‌ای register، handleSubmit، errors و نحوه‌ی نوشتن اسکیما با Zod.
+مرحله ۲ (تمرین عملی فرم پیشرفته): ساخت یک فرم با فیلدهای مختلف (Select, Checkbox, Radio) و اعتبارسنجی‌های چندمرحله‌ای با Zod.
+مرحله ۳ (مینی‌پروژه پایانی): پیاده‌سازی Multi Step Form Wizard (فرم چند مرحله‌ای حرفه‌ای با قابلیت ذخیره وضعیت هر مرحله).

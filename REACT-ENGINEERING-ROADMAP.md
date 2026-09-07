@@ -349,8 +349,8 @@ The focus is:
 
 ### Topics
 
-- [ ] reusable logic
-- [ ] custom hook architecture
+- [X] reusable logic
+- [X] custom hook architecture
 
 ### 📌 Mini Project
 
