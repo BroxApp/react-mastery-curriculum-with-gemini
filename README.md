@@ -15,10 +15,10 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📊 Current Status
 
 - **Current Phase:** phase 3.3 Professional Forms
-- **Day:** Tuseday
-- **Date:** 8-9-2026
-- **Daily Streak:** 🔥 101 Days
-- **Overall Progress:** 24%
+- **Day:** Wednesday
+- **Date:** 9-9-2026
+- **Daily Streak:** 🔥 102 Days
+- **Overall Progress:** 30%
 - **Next Step:** Phase 3.3 Mini projet Multi Step Form Wizard
 
 ---
