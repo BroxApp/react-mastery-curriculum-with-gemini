@@ -15,10 +15,10 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📊 Current Status
 
 - **Current Phase:** phase 3.3 Professional Forms
-- **Day:** Wednesday
-- **Date:** 9-9-2026
-- **Daily Streak:** 🔥 102 Days
-- **Overall Progress:** 30%
+- **Day:** Tursday
+- **Date:** 10-9-2026
+- **Daily Streak:** 🔥 103 Days
+- **Overall Progress:** 35%
 - **Next Step:** Phase 3.3 Mini projet Multi Step Form Wizard
 
 ---
@@ -26,7 +26,8 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📅 Daily Progress Log
 
 | Date | Task / Project | Commit Focus |
-| 8/9/2026  | Professional Forms Exercise 1 - Basic Registration Form & Zod Schema          | feat: implement registration form with React Hook Form and Zod validation schema; handle input registration, form submission, and error messaging |
+| 10/9/2026 | Professional Forms Exercise 2 - Advanced Validation & Form Controls | feat: implement advanced form patterns with React Hook Form and Zod; add password matching validation via z.refine, dropdown selection with z.enum, required checkbox validation, and form reset capability |
+| 8/9/2026 | Professional Forms Exercise 1 - Basic Registration Form & Zod Schema | feat: implement registration form with React Hook Form and Zod validation schema; handle input registration, form submission, and error messaging |
 | 7/9/2026 | Study: Phase 3.3 - Professional Forms (Theory & Zod Introduction) | docs: study theoretical foundations of React Hook Form, uncontrolled inputs, and schema-based validation with Zod |
 | 6/9/2026 | Custom Hooks – Advanced useFetch Mini-Project | feat: successfully complete the useFetch Hook Library mini-project; implement reusable data fetching with dynamic URLs, loading and error states, manual refetching, HTTP error handling, AbortController cleanup, and safe request cancellation; complete and test the Advanced Custom Hooks phase successfully |
 | 4/9/2026 | Custom Hooks Exercise 1 - useToggle Implementation & Practice | feat: implement custom useToggle hook with independent boolean state, toggle functionality, and direct state controls; practice Custom Hook structure and functional state updates |
