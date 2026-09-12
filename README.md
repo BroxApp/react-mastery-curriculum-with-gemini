@@ -18,7 +18,7 @@ To become a professional Frontend Engineer capable of building scalable applicat
 - **Day:** Friday
 - **Date:** 11-9-2026
 - **Daily Streak:** 🔥 104 Days
-- **Overall Progress:** 38%
+- **Overall Progress:** 43%
 - **Next Step:** Phase 3.4 Data Fetching Architecture
 
 ---
@@ -26,7 +26,8 @@ To become a professional Frontend Engineer capable of building scalable applicat
 ## 📅 Daily Progress Log
 
 | Date | Task / Project | Commit Focus |
-| 11/9/2026 | Completed: Mini Project - Multi Step Form Wizard (Phase 3.3)                 | feat: complete multi-step form wizard with React Hook Form and Zod; implement modular step components, cross-field validation with trigger, watch state summary, and submission handling |
+| 12/9/2026 | Study: Phase 3.4 - Data Fetching Architecture (TanStack Query Intro) | docs: study server-state management fundamentals, QueryClient setup, useQuery architecture, cache keys, and staleTime lifecycle |
+| 11/9/2026 | Completed: Mini Project - Multi Step Form Wizard (Phase 3.3) | feat: complete multi-step form wizard with React Hook Form and Zod; implement modular step components, cross-field validation with trigger, watch state summary, and submission handling |
 | 10/9/2026 | Professional Forms Exercise 2 - Advanced Validation & Form Controls | feat: implement advanced form patterns with React Hook Form and Zod; add password matching validation via z.refine, dropdown selection with z.enum, required checkbox validation, and form reset capability |
 | 8/9/2026 | Professional Forms Exercise 1 - Basic Registration Form & Zod Schema | feat: implement registration form with React Hook Form and Zod validation schema; handle input registration, form submission, and error messaging |
 | 7/9/2026 | Study: Phase 3.3 - Professional Forms (Theory & Zod Introduction) | docs: study theoretical foundations of React Hook Form, uncontrolled inputs, and schema-based validation with Zod |

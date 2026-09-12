@@ -337,9 +337,9 @@ The focus is:
 ### Topics
 
 - [x] Context API
-- [X] useReducer
-- [X] Redux Toolkit
-- [X] Zustand
+- [x] useReducer
+- [x] Redux Toolkit
+- [x] Zustand
 
 ### 📌 Mini Project
 
@@ -349,8 +349,8 @@ The focus is:
 
 ### Topics
 
-- [X] reusable logic
-- [X] custom hook architecture
+- [x] reusable logic
+- [x] custom hook architecture
 
 ### 📌 Mini Project
 
@@ -360,9 +360,9 @@ The focus is:
 
 ### Topics
 
-- [ ] React Hook Form
-- [ ] Zod Validation
-- [ ] advanced form patterns
+- [x] React Hook Form
+- [x] Zod Validation
+- [x] advanced form patterns
 
 ### 📌 Mini Project
 
