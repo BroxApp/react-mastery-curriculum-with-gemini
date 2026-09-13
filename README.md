@@ -8,24 +8,25 @@ Welcome to my professional journey of mastering React. This repository is a dedi
 
 ## 🎯 Goal
 
-To become a professional Frontend Engineer capable of building scalable applications and delivering high-quality freelance projects on platforms like Upwork and Fiverr.
-
+``````````````````````````````````````````````````````````````````````````````To become a professional Frontend Engineer capable of building scalable applications and delivering high-quality freelance projects on platforms like Upwork and Fiverr.
+``````````````````````````````````````````````````````````````````````````````
 ---
 
 ## 📊 Current Status
 
-- **Current Phase:** phase 3.3 Professional Forms /mini project Multi Step Form Wizard
-- **Day:** Friday
-- **Date:** 11-9-2026
-- **Daily Streak:** 🔥 104 Days
-- **Overall Progress:** 43%
-- **Next Step:** Phase 3.4 Data Fetching Architecture
+- **Current Phase:** Phase 3.4 Exercise 1 - QueryClient & useQuery Basics
+- **Day:** Sunday
+- **Date:** 13-9-2026
+- **Daily Streak:** 🔥 106 Days
+- **Overall Progress:** 48%
+- **Next Step:** Phase 3.4 Exercise 2
 
 ---
 
 ## 📅 Daily Progress Log
 
 | Date | Task / Project | Commit Focus |
+| 13/9/2026 | Data Fetching Architecture Exercise 1 - TanStack Query Basics | feat: setup QueryClientProvider and ReactQueryDevtools; implement useQuery with queryKey and fetcher function for posts; handle loading/error states and verify 30s staleTime cache behavior |
 | 12/9/2026 | Study: Phase 3.4 - Data Fetching Architecture (TanStack Query Intro) | docs: study server-state management fundamentals, QueryClient setup, useQuery architecture, cache keys, and staleTime lifecycle |
 | 11/9/2026 | Completed: Mini Project - Multi Step Form Wizard (Phase 3.3) | feat: complete multi-step form wizard with React Hook Form and Zod; implement modular step components, cross-field validation with trigger, watch state summary, and submission handling |
 | 10/9/2026 | Professional Forms Exercise 2 - Advanced Validation & Form Controls | feat: implement advanced form patterns with React Hook Form and Zod; add password matching validation via z.refine, dropdown selection with z.enum, required checkbox validation, and form reset capability |
