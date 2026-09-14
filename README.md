@@ -8,24 +8,27 @@ Welcome to my professional journey of mastering React. This repository is a dedi
 
 ## 🎯 Goal
 
-``````````````````````````````````````````````````````````````````````````````To become a professional Frontend Engineer capable of building scalable applications and delivering high-quality freelance projects on platforms like Upwork and Fiverr.
-``````````````````````````````````````````````````````````````````````````````
+```To become a professional Frontend Engineer capable of building scalable applications and delivering high-quality freelance projects on platforms like Upwork and Fiverr.
+
+```
+
 ---
 
 ## 📊 Current Status
 
-- **Current Phase:** Phase 3.4 Exercise 1 - QueryClient & useQuery Basics
-- **Day:** Sunday
-- **Date:** 13-9-2026
-- **Daily Streak:** 🔥 106 Days
-- **Overall Progress:** 48%
-- **Next Step:** Phase 3.4 Exercise 2
+- **Current Phase:** Phase 3.4 Mini-Project - Infinite Products Explorer
+- **Day:** Monday
+- **Date:** 14-9-2026
+- **Daily Streak:** 🔥 107 Days
+- **Overall Progress:** 50%
+- **Next Step:** Phase 3.4 Mini-Project (Infinite Scrolling with useInfiniteQuery)
 
 ---
 
 ## 📅 Daily Progress Log
 
 | Date | Task / Project | Commit Focus |
+| 14/9/2026 | Data Fetching Architecture Exercise 2 - Dynamic Query Keys & Pagination | feat: implement paginated data fetching with TanStack Query and DummyJSON API; configure dynamic queryKey ['products', page] with keepPreviousData placeholder architecture for flicker-free page transitions |
 | 13/9/2026 | Data Fetching Architecture Exercise 1 - TanStack Query Basics | feat: setup QueryClientProvider and ReactQueryDevtools; implement useQuery with queryKey and fetcher function for posts; handle loading/error states and verify 30s staleTime cache behavior |
 | 12/9/2026 | Study: Phase 3.4 - Data Fetching Architecture (TanStack Query Intro) | docs: study server-state management fundamentals, QueryClient setup, useQuery architecture, cache keys, and staleTime lifecycle |
 | 11/9/2026 | Completed: Mini Project - Multi Step Form Wizard (Phase 3.3) | feat: complete multi-step form wizard with React Hook Form and Zod; implement modular step components, cross-field validation with trigger, watch state summary, and submission handling |
