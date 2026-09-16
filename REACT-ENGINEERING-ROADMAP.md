@@ -372,10 +372,10 @@ The focus is:
 
 ### Topics
 
-- [ ] TanStack Query
-- [ ] caching
-- [ ] pagination
-- [ ] infinite scroll
+- [x] TanStack Query
+- [x] caching
+- [x] pagination
+- [x] infinite scroll
 
 ### 📌 Mini Project
 
