@@ -385,9 +385,9 @@ The focus is:
 
 ### Topics
 
-- [ ] JWT basics
-- [ ] login systems
-- [ ] protected routes
+- [X] JWT basics
+- [X] login systems
+- [X] protected routes
 
 ### 📌 Mini Project
 
