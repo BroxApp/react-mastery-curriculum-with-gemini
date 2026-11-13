@@ -385,9 +385,9 @@ The focus is:
 
 ### Topics
 
-- [X] JWT basics
-- [X] login systems
-- [X] protected routes
+- [x] JWT basics
+- [x] login systems
+- [x] protected routes
 
 ### 📌 Mini Project
 
@@ -397,11 +397,11 @@ The focus is:
 
 ### Topics
 
-- [ ] React.memo
-- [ ] useMemo
-- [ ] useCallback
-- [ ] lazy loading
-- [ ] code splitting
+- [x] React.memo
+- [x] useMemo
+- [x] useCallback
+- [x] lazy loading
+- [x] code splitting
 
 ### 📌 Mini Project
 
@@ -411,9 +411,9 @@ The focus is:
 
 ### Topics
 
-- [ ] animations
-- [ ] modal systems
-- [ ] reusable UI systems
+- [x] animations
+- [x] modal systems
+- [x] reusable UI systems
 
 ### 📌 Mini Project
 
